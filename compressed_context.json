@@ -1,0 +1,1310 @@
+{
+  "subscription.db": {
+    "payroll.table": {
+      "Payroll_Start": {
+        "dt": "t",
+        "c": "The 'Payroll_Start' column likely contains information related to the start date of a payroll period."
+      },
+      "Payroll_Expiry": {
+        "dt": "t",
+        "c": "The 'Payroll_Expiry' column likely contains information related to the expiration dates of payroll-related documents or records."
+      },
+      "Payroll_Payment_Method": {
+        "dt": "t",
+        "c": "The 'Payroll_Payment_Method' column in a business dataset typically stores information about the method used to pay employees their wages or salaries."
+      },
+      "Payroll_Status": {
+        "dt": "t",
+        "c": "The 'Payroll_Status' column typically indicates the current status of an employee's payroll within an organization."
+      },
+      "Payroll_Headcount": {
+        "dt": "i",
+        "c": "The 'Payroll_Headcount' column typically contains numerical data representing the total number of employees within an organization during a specific period."
+      },
+      "Payroll_Sales_Person": {
+        "dt": "t",
+        "c": "The column 'Payroll_Sales_Person' likely contains information related to sales personnel who are responsible for selling payroll services or products."
+      },
+      "Sales_Remark": {
+        "dt": "t",
+        "c": "The 'Sales_Remark' column in a dataset typically contains comments or notes related to sales transactions or activities."
+      },
+      "location": {
+        "dt": "t",
+        "c": "The column 'location' in a business dataset typically stores information about the physical or geographical location of a particular entity, such as a store, office, or warehouse."
+      },
+      "Reseller": {
+        "dt": "t",
+        "c": "The \"Reseller\" column in Business Knowledge typically focuses on the strategies, challenges, and best practices for businesses that operate as resellers."
+      },
+      "Payroll_Remarks": {
+        "dt": "t",
+        "c": "The 'Payroll_Remarks' column typically contains any additional notes or comments related to an employee's payroll information."
+      }
+    },
+    "claims.table": {
+      "Claims_Start": {
+        "dt": "t",
+        "c": "The 'Claims_Start' column likely contains the date or timestamp when a claim was initiated or filed within a dataset."
+      },
+      "Claims_Expiry": {
+        "dt": "t",
+        "c": "The 'Claims_Expiry' column likely contains information related to the expiration dates of insurance claims or other types of claims."
+      },
+      "Claims_Payment_Method": {
+        "dt": "t",
+        "c": "The 'Claims_Payment_Method' column in the dataset likely contains information about the method or process used to pay out insurance claims."
+      },
+      "Claims_Status": {
+        "dt": "t",
+        "c": "The 'Claims_Status' column in a business dataset typically provides information on the current status of insurance claims or reimbursement requests."
+      },
+      "Claims_Headcount": {
+        "dt": "i",
+        "c": "The 'Claims_Headcount' column likely contains data related to the number of employees or individuals involved in processing insurance claims within a company or organization."
+      },
+      "Claims_Sales_Person": {
+        "dt": "t",
+        "c": "The 'Claims_Sales_Person' column likely contains information related to the sales performance or activities of individual salespersons within an insurance company or a similar industry."
+      },
+      "Claims_Remarks": {
+        "dt": "t",
+        "c": "The 'Claims_Remarks' column in a business dataset typically contains information related to any claims or remarks made by customers, clients, or employees."
+      }
+    },
+    "HRIS.table": {
+      "HRIS_Start": {
+        "dt": "t",
+        "c": "The column 'HRIS_Start' likely captures the date when an employee's information was entered into the Human Resources Information System (HRIS)."
+      },
+      "HRIS_Expiry": {
+        "dt": "t",
+        "c": "The 'HRIS_Expiry' column in the HRIS (Human Resources Information System) database tracks the expiration dates of various HR-related documents and certifications for employees."
+      },
+      "HRIS_Payment_Method": {
+        "dt": "t",
+        "c": "The 'HRIS_Payment_Method' column in a Human Resources Information System (HRIS) database typically stores information about the payment method chosen by employees for receiving their salaries, bonuses, and other compensation."
+      },
+      "HRIS_Status": {
+        "dt": "t",
+        "c": "The 'HRIS_Status' column in a business dataset typically refers to the current status of an employee within the Human Resources Information System (HRIS)."
+      },
+      "HRIS_Headcount": {
+        "dt": "i",
+        "c": "The 'HRIS_Headcount' column in the dataset likely contains information related to the headcount or number of employees within a company as captured by the Human Resources Information System (HRIS)."
+      },
+      "HRIS_Sales_Person": {
+        "dt": "t",
+        "c": "The 'HRIS_Sales_Person' column likely contains information related to the sales personnel responsible for selling Human Resources Information Systems (HRIS) within a company."
+      },
+      "HRIS_Remarks": {
+        "dt": "t",
+        "c": "The column 'HRIS_Remarks' in a database or system typically stores additional notes, comments, or observations related to Human Resources Information System (HRIS) data."
+      }
+    },
+    "leave.table": {
+      "Leave_Start": {
+        "dt": "t",
+        "c": "The 'Leave_Start' column likely contains data related to the start date of an employee's leave of absence."
+      },
+      "Leave_Expiry": {
+        "dt": "t",
+        "c": "The 'Leave_Expiry' column likely contains information about the expiration date of accumulated leave days for employees."
+      },
+      "Leave_Payment_Method": {
+        "dt": "t",
+        "c": "The 'Leave_Payment_Method' column in a business dataset typically stores information about the method used to pay employees for their accrued leave time."
+      },
+      "Leave_Status": {
+        "dt": "t",
+        "c": "The 'Leave_Status' column in a business dataset typically indicates the current status of an employee's leave request."
+      },
+      "Leave_Headcount": {
+        "dt": "i",
+        "c": "The 'Leave_Headcount' column in the business dataset tracks the number of employees who have taken leaves of absence or time off within a specific period."
+      },
+      "Leave_Sales_Person": {
+        "dt": "t",
+        "c": "The 'Leave_Sales_Person' column in a business dataset typically contains information about whether a salesperson has left the company or is still employed."
+      },
+      "Leave_Remarks": {
+        "dt": "t",
+        "c": "The 'Leave_Remarks' column in a business dataset typically contains comments or notes left by users or employees regarding a specific event, transaction, or record."
+      }
+    },
+    "hadir.table": {
+      "Hadir_Start": {
+        "dt": "t",
+        "c": "The 'Hadir_Start' column likely contains data related to the attendance or start time of an event, meeting, or work shift."
+      },
+      "Hadir_Expiry": {
+        "dt": "t",
+        "c": "The 'Hadir_Expiry' column likely contains information related to the expiration date or validity period of attendance records or data."
+      },
+      "Hadir_Payment_Method": {
+        "dt": "t",
+        "c": "The column 'Hadir_Payment_Method' in the dataset likely contains information about the various payment methods used by customers or clients to make payments for services or products provided by the business."
+      },
+      "Hadir_Status": {
+        "dt": "t",
+        "c": "The 'Hadir_Status' column likely contains information related to the attendance status of individuals or employees."
+      },
+      "Hadir_Headcount": {
+        "dt": "i",
+        "c": "The 'Hadir_Headcount' column likely contains data related to the number of employees or attendees present at a specific event, location, or within an organization at a given time."
+      },
+      "Hadir_Sales_Person": {
+        "dt": "t",
+        "c": "The 'Hadir_Sales_Person' column in a business dataset likely contains information about the presence or attendance of sales personnel during specific events, such as meetings, presentations, or client interactions."
+      },
+      "Hadir_Remarks": {
+        "dt": "t",
+        "c": "The 'Hadir_Remarks' column likely contains notes or comments related to attendance or presence."
+      }
+    },
+    "hr.table": {
+      "HR_Full_Name": {
+        "dt": "t",
+        "c": "The column 'HR_Full_Name' likely contains the full name of the Human Resources personnel in a company."
+      },
+      "HR_Email": {
+        "dt": "t",
+        "c": "The 'HR_Email' column likely contains email addresses of employees or contacts within the Human Resources department."
+      }
+    },
+    "customer.table": {
+      "Name": {
+        "dt": "t",
+        "c": "The 'Name' column typically contains the names of individuals, companies, products, or any other entities relevant to the dataset."
+      },
+      "Todo": {
+        "dt": "t",
+        "c": "The 'Todo' column is a designated space where tasks and action items are listed for completion."
+      },
+      "Phone": {
+        "dt": "t",
+        "c": "The \"Phone\" column in a business dataset typically contains information related to the telephone numbers associated with customers, employees, or contacts."
+      },
+      "Registration_Date": {
+        "dt": "t",
+        "c": "The 'Registration_Date' column in a dataset likely contains information about the date when individuals or entities registered for a service, event, or system."
+      },
+      "Employee_Number": {
+        "dt": "i",
+        "c": "The 'Employee_Number' column typically stores a unique identifier assigned to each employee within an organization."
+      },
+      "Payroll_History_Number": {
+        "dt": "u",
+        "c": "The 'Payroll_History_Number' column typically stores a numerical value that represents the chronological order of payroll processing."
+      },
+      "Confirmed_Payroll_History_Number": {
+        "dt": "i",
+        "c": "The 'Confirmed_Payroll_History_Number' column in a business dataset typically represents the unique identification number assigned to each confirmed payroll history record."
+      },
+      "Latest_Confirmed_Payroll_History_Date": {
+        "dt": "t",
+        "c": "The column 'Latest_Confirmed_Payroll_History_Date' records the most recent date when payroll information was confirmed or updated in the system."
+      },
+      "Claim_Number": {
+        "dt": "u",
+        "c": "The 'Claim_Number' column typically stores unique identifiers assigned to individual insurance claims."
+      },
+      "Latest_Claim_Date": {
+        "dt": "t",
+        "c": "The 'Latest_Claim_Date' column in the dataset represents the most recent date on which a claim was filed by customers or clients."
+      },
+      "Leave_History_Number": {
+        "dt": "u",
+        "c": "The 'Leave_History_Number' column likely tracks the number of leave instances or occurrences for each employee within a specified time period."
+      },
+      "Latest_Leave_Date": {
+        "dt": "t",
+        "c": "The 'Latest_Leave_Date' column typically stores the latest possible date that an employee can take leave or vacation time."
+      },
+      "Attendance_Number": {
+        "dt": "u",
+        "c": "The 'Attendance_Number' column in the dataset likely represents the count or numerical value associated with attendance at a specific event, meeting, or location."
+      },
+      "Latest_Attendance_Clock_in_Date": {
+        "dt": "t",
+        "c": "The column 'Latest_Attendance_Clock_in_Date' records the most recent date and time when an employee clocked in for work."
+      },
+      "Trial_Document": {
+        "dt": "t",
+        "c": "The 'Trial_Document' column in the business database contains information related to legal documents submitted as evidence during a trial or court proceeding."
+      },
+      "Trail_Document_From": {
+        "dt": "t",
+        "c": "The column 'Trail_Document_From' likely captures the origin or source of a document or file within a system or database."
+      },
+      "Trail_Document_To": {
+        "dt": "t",
+        "c": "The column 'Trail_Document_To' likely tracks the path or route taken by a document within a system or process."
+      },
+      "UTM_Source": {
+        "dt": "t",
+        "c": "The 'UTM_Source' column in business terminology refers to a parameter used in tracking the source of website traffic."
+      },
+      "UTM_Medium": {
+        "dt": "t",
+        "c": "The 'UTM_Medium' column typically contains information regarding the medium or marketing channel through which a user has accessed a website or digital platform."
+      },
+      "UTM_Term": {
+        "dt": "t",
+        "c": "The 'UTM_Term' column typically refers to the specific keywords or terms used in a URL tracking parameter (UTM parameters) for tracking the effectiveness of marketing campaigns."
+      },
+      "Customer_ID": {
+        "dt": "t",
+        "c": "The 'Customer_ID' column is a unique identifier assigned to each individual customer in a database or system."
+      },
+      "Plan_ID": {
+        "dt": "t",
+        "c": "The 'Plan_ID' column likely contains unique identifiers for different plans within a business or organization."
+      },
+      "Subscription_ID": {
+        "dt": "t",
+        "c": "The 'Subscription_ID' column in the dataset contains unique identification numbers assigned to each subscription in a business's database."
+      }
+    },
+    "trial.table": {
+      "Trial_Payroll": {
+        "dt": "t",
+        "c": "The 'Trial_Payroll' column in a business dataset likely contains information related to trial runs or simulations of the payroll process."
+      },
+      "Trail_Payroll_From": {
+        "dt": "t",
+        "c": "The column 'Trail_Payroll_From' likely refers to the starting date or period for payroll tracking in a system or database."
+      },
+      "Trail_Payroll_To": {
+        "dt": "t",
+        "c": "The 'Trail_Payroll_To' column likely refers to the end date or cut-off date for a payroll period within a company's accounting or payroll system."
+      },
+      "Trial_Claim": {
+        "dt": "t",
+        "c": "The 'Trial_Claim' column in the dataset likely contains information related to claims or assertions made during a trial or legal proceedings."
+      },
+      "Trail_Claim_From": {
+        "dt": "t",
+        "c": "The 'Trail_Claim_From' column likely contains information related to the starting point or origin of a trail claim."
+      },
+      "Trail_Claim_To": {
+        "dt": "t",
+        "c": "The column 'Trail_Claim_To' likely refers to the destination or endpoint of a specific trail or journey."
+      }
+    },
+    "subscription.table": {
+      "Subscription_Payroll": {
+        "dt": "i",
+        "c": "The 'Subscription_Payroll' column likely contains information related to payroll expenses associated with subscription-based services or products."
+      },
+      "Subscription_Claim": {
+        "dt": "i",
+        "c": "The 'Subscription_Claim' column likely contains information related to claims or requests made by subscribers of a service or product."
+      },
+      "Subscription_HRIS": {
+        "dt": "i",
+        "c": "The 'Subscription_HRIS' column in a business dataset likely contains information related to the human resources information system (HRIS) subscription details."
+      },
+      "Payment_Method": {
+        "dt": "t",
+        "c": "The 'Payment_Method' column in a dataset typically contains information about the method used to make a payment for a transaction."
+      },
+      "Subscription_Payroll_V2": {
+        "dt": "u",
+        "c": "The 'Subscription_Payroll_V2' column likely contains data related to subscription-based payroll services."
+      },
+      "Subscription_Claim_V2": {
+        "dt": "u",
+        "c": "The 'Subscription_Claim_V2' column likely contains data related to claims made by subscribers in a subscription-based service or product."
+      },
+      "Subscription_HRIS_V2": {
+        "dt": "u",
+        "c": "The 'Subscription_HRIS_V2' column likely contains data related to subscription information for a Human Resources Information System (HRIS) in a version 2 format."
+      },
+      "Subscription_Leave_V2": {
+        "dt": "u",
+        "c": "The 'Subscription_Leave_V2' column likely contains data related to customers who have decided to cancel or leave a subscription service."
+      },
+      "Subscription_Hadir_V2": {
+        "dt": "u",
+        "c": "The 'Subscription_Hadir_V2' column likely contains data related to the presence or attendance of subscribers in a particular context or event."
+      },
+      "Hubspot_Deal_ID": {
+        "dt": "u",
+        "c": "The 'Hubspot_Deal_ID' column contains unique identification numbers assigned to each deal in the HubSpot CRM system."
+      },
+      "Update_Date": {
+        "dt": "t",
+        "c": "The 'Update_Date' column in a database typically stores the timestamp of when a particular record was last updated."
+      }
+    }
+  },
+  "stock.db": {
+    "dowjones400.table": {
+      "Symbol" : {
+                "data_type": "TEXT",
+                "context": "Company Ticker for Stock - Identification"
+            },
+      "Company_Name": {
+        "dt": "t",
+        "c": "The 'Company_Name' column represents the name of the company."
+      },
+      "Market_Cap": {
+        "dt": "n",
+        "c": "The 'Market_Cap' column stores the total market capitalization of the company."
+      },
+      "Stock_Price": {
+        "dt": "n",
+        "c": "The 'Stock_Price' column contains the current price of the company's stock."
+      },
+      "Percentage_Change": {
+        "dt": "n",
+        "c": "The 'Percentage_Change' column indicates the percentage change in stock price over a specific period."
+      },
+      "Industry": {
+        "dt": "t",
+        "c": "The 'Industry' column categorizes the company into a specific sector, such as Technology, Healthcare, or Finance."
+      },
+      "Volume": {
+        "dt": "n",
+        "c": "The 'Volume' column stores the trading volume of the company's stock."
+      },
+      "PE_Ratio": {
+        "dt": "n",
+        "c": "The 'PE_Ratio' (Price-to-Earnings Ratio) column reflects the company's valuation in relation to its earnings."
+      },
+      "Enterprise_Value": {
+        "dt": "n",
+        "c": "The 'Enterprise_Value' column represents the total value of the company, including its market capitalization, debt, and cash reserves."
+      },
+      "MC_Group": {
+        "dt": "t",
+        "c": "The 'MC_Group' column groups companies based on their market capitalization into categories such as Small Cap, Mid Cap, or Large Cap."
+      },
+      "Sector": {
+        "dt": "t",
+        "c": "The 'Sector' column categorizes the company within a broader economic or industrial sector, such as Consumer Goods, Financial Services, or Technology."
+      },
+      "Forward_PE": {
+        "dt": "n",
+        "c": "The 'Forward_PE' column represents the price-to-earnings ratio based on forecasted earnings."
+      },
+      "Exchange": {
+        "dt": "t",
+        "c": "The 'Exchange' column indicates the stock exchange where the company\u2019s shares are listed, such as the NYSE, NASDAQ, or LSE."
+      },
+      "Div_Yield": {
+        "dt": "n",
+        "c": "The 'Div_Yield' column shows the annual dividend income as a percentage of the stock price."
+      },
+      "Div_Amount": {
+        "dt": "n",
+        "c": "The 'Div_Amount' column indicates the actual amount of the dividend payment in dollars."
+      },
+      "Last_Div": {
+        "dt": "d",
+        "c": "The 'Last_Div' column marks the date of the most recent dividend payment."
+      },
+      "Div_Growth": {
+        "dt": "n",
+        "c": "The 'Div_Growth' column tracks the rate at which the company\u2019s dividend payments have increased over a specific period."
+      },
+      "Years_of_Dividends": {
+        "dt": "n",
+        "c": "The 'Years_of_Dividends' column tracks how many years the company has been paying dividends."
+      },
+      "Div_CAGR_5Y": {
+        "dt": "n",
+        "c": "The 'Div_CAGR_5Y' column shows the compound annual growth rate of dividends over the past five years."
+      },
+      "Change_1W": {
+        "dt": "n",
+        "c": "The 'Change_1W' column represents the percentage change in stock price over the past week."
+      },
+      "Change_1M": {
+        "dt": "n",
+        "c": "The 'Change_1M' column tracks the percentage change in stock price over the past month."
+      },
+      "Change_3M": {
+        "dt": "n",
+        "c": "The 'Change_3M' column measures the percentage change in stock price over the past three months."
+      },
+      "Change_6M": {
+        "dt": "n",
+        "c": "The 'Change_6M' column shows the percentage change in stock price over the past six months, offering insight into the stock\u2019s behavior over half a year."
+      },
+      "Change_YTD": {
+        "dt": "n",
+        "c": "The 'Change_YTD' column indicates the percentage change in stock price year-to-date."
+      },
+      "Change_1Y": {
+        "dt": "n",
+        "c": "The 'Change_1Y' column tracks the percentage change in stock price over the past year."
+      },
+      "Change_3Y": {
+        "dt": "n",
+        "c": "The 'Change_3Y' column shows the percentage change in stock price over the last three years."
+      },
+      "Change_5Y": {
+        "dt": "n",
+        "c": "The 'Change_5Y' column represents the percentage change in stock price over five years."
+      },
+      "Change_10Y": {
+        "dt": "n",
+        "c": "The 'Change_10Y' column shows the percentage change in stock price over the past ten years, providing a decade-long view of the company\u2019s stock performance."
+      },
+      "Change_15Y": {
+        "dt": "n",
+        "c": "The 'Change_15Y' column tracks the percentage change in stock price over the last 15 years."
+      },
+      "Change_20Y": {
+        "dt": "n",
+        "c": "The 'Change_20Y' column shows the percentage change in stock price over the last 20 years, giving investors a long-term historical view of stock price evolution."
+      },
+      "Return_1W": {
+        "dt": "n",
+        "c": "The 'Return_1W' column represents the total return on investment over the past week, taking into account price changes, dividends, and other factors."
+      },
+      "Return_1M": {
+        "dt": "n",
+        "c": "The 'Return_1M' column tracks the total return on investment over the past month."
+      },
+      "Return_3M": {
+        "dt": "n",
+        "c": "The 'Return_3M' column measures the total return over the past three months."
+      },
+      "Return_6M": {
+        "dt": "n",
+        "c": "The 'Return_6M' column shows the total return over the past six months."
+      },
+      "Return_YTD": {
+        "dt": "n",
+        "c": "The 'Return_YTD' column represents the total return year-to-date."
+      },
+      "Return_1Y": {
+        "dt": "n",
+        "c": "The 'Return_1Y' column tracks the total return on investment over the past year."
+      },
+      "Return_3Y": {
+        "dt": "n",
+        "c": "The 'Return_3Y' column reflects the total return over the past three years."
+      },
+      "Return_5Y": {
+        "dt": "n",
+        "c": "The 'Return_5Y' column shows the total return over the past five years."
+      },
+      "Return_10Y": {
+        "dt": "n",
+        "c": "The 'Return_10Y' column provides the total return over the last ten years, offering a long-term view of the company's performance in the market."
+      },
+      "Return_15Y": {
+        "dt": "n",
+        "c": "The 'Return_15Y' column represents the total return over a 15-year period."
+      },
+      "Return_20Y": {
+        "dt": "n",
+        "c": "The 'Return_20Y' column tracks the total return over the last 20 years, offering a comprehensive historical view of the company\u2019s stock performance."
+      },
+      "CAGR_1Y": {
+        "dt": "n",
+        "c": "The 'CAGR_1Y' column represents the compound annual growth rate over the past year."
+      },
+      "CAGR_3Y": {
+        "dt": "n",
+        "c": "The 'CAGR_3Y' column tracks the compound annual growth rate over the last three years."
+      },
+      "CAGR_5Y": {
+        "dt": "n",
+        "c": "The 'CAGR_5Y' column shows the compound annual growth rate over the past five years."
+      },
+      "CAGR_10Y": {
+        "dt": "n",
+        "c": "The 'CAGR_10Y' column tracks the compound annual growth rate over the last ten years, providing investors with a deeper understanding of sustained growth trends over a decade."
+      },
+      "CAGR_15Y": {
+        "dt": "n",
+        "c": "The 'CAGR_15Y' column represents the compound annual growth rate over the past 15 years."
+      },
+      "CAGR_20Y": {
+        "dt": "n",
+        "c": "The 'CAGR_20Y' column shows the compound annual growth rate over the last 20 years."
+      },
+      "52W_Low_Chg": {
+        "dt": "n",
+        "c": "The '52W_Low_Chg' column tracks the change in price from the 52-week low."
+      },
+      "52W_High_Chg": {
+        "dt": "n",
+        "c": "The '52W_High_Chg' column measures the change in price from the 52-week high."
+      },
+      "ATH": {
+        "dt": "n",
+        "c": "The 'ATH' column represents the all-time high price of the stock."
+      },
+      "ATH_Chg_Percentage": {
+        "dt": "n",
+        "c": "The 'ATH_Chg_Percentage' column tracks the percentage change from the all-time high price."
+      },
+      "ATH_Date": {
+        "dt": "d",
+        "c": "The 'ATH_Date' column stores the date when the stock reached its all-time high."
+      },
+      "ATL": {
+        "dt": "n",
+        "c": "The 'ATL' column represents the all-time low price of the stock."
+      },
+      "ATL_Chg_Percentage": {
+        "dt": "n",
+        "c": "The 'ATL_Chg_Percentage' column indicates the percentage change from the all-time low."
+      },
+      "ATL_Date": {
+        "dt": "d",
+        "c": "The 'ATL_Date' column stores the date when the stock reached its all-time low."
+      },
+      "Rating": {
+        "dt": "t",
+        "c": "The 'Rating' column represents the analyst rating for the company, typically ranging from Buy, Hold, to Sell."
+      },
+      "Analyst_Count": {
+        "dt": "n",
+        "c": "The 'Analyst_Count' column indicates the number of analysts covering the stock."
+      },
+      "Price_Target": {
+        "dt": "n",
+        "c": "The 'Price_Target' column stores the average analyst price target for the stock."
+      },
+      "PT_Diff_Percentage": {
+        "dt": "n",
+        "c": "The 'PT_Diff_Percentage' column tracks the percentage difference between the current stock price and the analyst\u2019s average price target."
+      },
+      "Open": {
+        "dt": "n",
+        "c": "The 'Open' column represents the stock's opening price for the day."
+      },
+      "Low": {
+        "dt": "n",
+        "c": "The 'Low' column indicates the lowest price the stock reached during the trading day."
+      },
+      "High": {
+        "dt": "n",
+        "c": "The 'High' column shows the highest price the stock reached during the trading day."
+      },
+      "Close": {
+        "dt": "n",
+        "c": "The 'Close' column represents the stock's closing price for the day."
+      },
+      "Premkt_Price": {
+        "dt": "n",
+        "c": "The 'Premkt_Price' column represents the stock's price before the market opens during pre-market trading."
+      },
+      "Premkt_Chgpercent": {
+        "dt": "n",
+        "c": "The 'Premkt_Chgpercent' column tracks the percentage change in the stock price during pre-market trading."
+      },
+      "Premkt_Close": {
+        "dt": "n",
+        "c": "The 'Premkt_Close' column indicates the closing price during pre-market trading."
+      },
+      "Afterhr_Price": {
+        "dt": "n",
+        "c": "The 'Afterhr_Price' column represents the stock's price after the market closes, during after-hours trading."
+      },
+      "Afterhr_Chgpercent": {
+        "dt": "n",
+        "c": "The 'Afterhr_Chgpercent' column tracks the percentage change in the stock price during after-hours trading."
+      },
+      "Afterhr_Close": {
+        "dt": "n",
+        "c": "The 'Afterhr_Close' column shows the stock's closing price during after-hours trading."
+      },
+      "52W_Low": {
+        "dt": "n",
+        "c": "The '52W_Low' column indicates the lowest price the stock has traded at in the last 52 weeks."
+      },
+      "Country": {
+        "dt": "t",
+        "c": "The 'Country' column represents the country in which the company is incorporated."
+      },
+      "52W_High": {
+        "dt": "n",
+        "c": "The '52W_High' column represents the highest price the stock has traded at in the last 52 weeks."
+      },
+      "State": {
+        "dt": "t",
+        "c": "The 'State' column shows the state or region where the company is incorporated, which can give investors insights into the company\u2019s location, tax policies, and market conditions."
+      },
+      "Employees": {
+        "dt": "n",
+        "c": "The 'Employees' column indicates the total number of employees working for the company."
+      },
+      "Empl_Change": {
+        "dt": "n",
+        "c": "The 'Empl_Change' column tracks the change in the number of employees over a given period."
+      },
+      "Empl_Growth": {
+        "dt": "n",
+        "c": "The 'Empl_Growth' column shows the employee growth rate, highlighting how the company\u2019s workforce is expanding or contracting over time."
+      },
+      "Founded": {
+        "dt": "n",
+        "c": "The 'Founded' column indicates the year the company was founded."
+      },
+      "IPO_Date": {
+        "dt": "d",
+        "c": "The 'IPO_Date' column stores the date when the company went public."
+      },
+      "Last_Report_Date": {
+        "dt": "d",
+        "c": "The 'Last_Report_Date' column indicates the date of the company\u2019s most recent financial report."
+      },
+      "FY_End": {
+        "dt": "d",
+        "c": "The 'FY_End' column represents the end date of the company\u2019s fiscal year."
+      },
+      "10K_Date": {
+        "dt": "d",
+        "c": "The '10K_Date' column represents the date of the company\u2019s most recent 10-K filing."
+      },
+      "Revenue": {
+        "dt": "n",
+        "c": "The 'Revenue' column shows the total revenue generated by the company."
+      },
+      "Rev_Growth": {
+        "dt": "n",
+        "c": "The 'Rev_Growth' column tracks the revenue growth rate over a period."
+      },
+      "Rev_Growth_Q": {
+        "dt": "n",
+        "c": "The 'Rev_Growth_Q' column indicates the quarterly revenue growth rate."
+      },
+      "Rev_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'Rev_Growth_3Y' column measures the revenue growth rate over the past three years."
+      },
+      "Rev_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'Rev_Growth_5Y' column tracks the revenue growth rate over the past five years."
+      },
+      "Rev_Growth_Yrs": {
+        "dt": "n",
+        "c": "The 'Rev_Growth_Yrs' column tracks the number of years in which the company has shown consistent revenue growth."
+      },
+      "Rev_Growth_Qtrs": {
+        "dt": "n",
+        "c": "The 'Rev_Growth_Qtrs' column tracks the number of quarters in which the company has shown consistent revenue growth."
+      },
+      "Gross_Profit": {
+        "dt": "n",
+        "c": "The 'Gross_Profit' column represents the total gross profit generated by the company."
+      },
+      "GP_Growth": {
+        "dt": "n",
+        "c": "The 'GP_Growth' column tracks the growth rate of the company\u2019s gross profit."
+      },
+      "GP_Growth_Q": {
+        "dt": "n",
+        "c": "The 'GP_Growth_Q' column measures the quarterly growth rate of the company\u2019s gross profit."
+      },
+      "GP_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'GP_Growth_3Y' column tracks the gross profit growth rate over the past three years."
+      },
+      "GP_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'GP_Growth_5Y' column indicates the gross profit growth rate over the past five years."
+      },
+      "Op_Income": {
+        "dt": "n",
+        "c": "The 'Op_Income' column represents the operating income of the company, which reflects the profit generated from its core business activities."
+      },
+      "OpInc_Growth": {
+        "dt": "n",
+        "c": "The 'OpInc_Growth' column measures the growth rate of operating income."
+      },
+      "OpInc_Growth_Q": {
+        "dt": "n",
+        "c": "The 'OpInc_Growth_Q' column tracks the quarterly growth rate of operating income."
+      },
+      "OpInc_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'OpInc_Growth_3Y' column measures the operating income growth over the past three years."
+      },
+      "OpInc_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'OpInc_Growth_5Y' column tracks the operating income growth over the past five years."
+      },
+      "Net_Income": {
+        "dt": "n",
+        "c": "The 'Net_Income' column represents the company's net income, which is the profit after all expenses, taxes, and interest have been deducted."
+      },
+      "NetInc_Growth": {
+        "dt": "n",
+        "c": "The 'NetInc_Growth' column measures the growth rate of the company's net income."
+      },
+      "NetInc_Growth_Q": {
+        "dt": "n",
+        "c": "The 'NetInc_Growth_Q' column tracks the quarterly growth rate of net income."
+      },
+      "NetInc_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'NetInc_Growth_3Y' column measures the net income growth over the past three years."
+      },
+      "NetInc_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'NetInc_Growth_5Y' column tracks the net income growth over the past five years."
+      },
+      "NetInc_Growth_Yrs": {
+        "dt": "n",
+        "c": "The 'NetInc_Growth_Yrs' column shows how many years the company has demonstrated consistent net income growth."
+      },
+      "NetInc_Growth_Qtrs": {
+        "dt": "n",
+        "c": "The 'NetInc_Growth_Qtrs' column shows the number of quarters in which the company has consistently grown its net income."
+      },
+      "Income_Tax": {
+        "dt": "n",
+        "c": "The 'Income_Tax' column represents the amount of income tax the company has paid."
+      },
+      "EPS": {
+        "dt": "n",
+        "c": "The 'EPS' (Earnings Per Share) column represents the company\u2019s profit allocated to each outstanding share of common stock."
+      },
+      "EPS_Growth": {
+        "dt": "n",
+        "c": "The 'EPS_Growth' column tracks the growth rate of earnings per share."
+      },
+      "EPS_Growth_Q": {
+        "dt": "n",
+        "c": "The 'EPS_Growth_Q' column tracks the quarterly growth rate of earnings per share."
+      },
+      "EPS_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'EPS_Growth_3Y' column measures the growth rate of earnings per share over the past three years."
+      },
+      "EPS_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'EPS_Growth_5Y' column tracks the growth rate of earnings per share over the past five years."
+      },
+      "EPS_Growth_Yrs": {
+        "dt": "n",
+        "c": "The 'EPS_Growth_Yrs' column shows how many years the company has consistently grown its earnings per share."
+      },
+      "EPS_Growth_Qtrs": {
+        "dt": "n",
+        "c": "The 'EPS_Growth_Qtrs' column tracks the number of quarters in which the company has consistently grown its earnings per share."
+      },
+      "EBITDA": {
+        "dt": "n",
+        "c": "The 'EBITDA' (Earnings Before Interest, Taxes, Depreciation, and Amortization) column represents the company\u2019s earnings before accounting for interest expenses, taxes, depreciation, and amortization."
+      },
+      "EBIT": {
+        "dt": "n",
+        "c": "The 'EBIT' (Earnings Before Interest and Taxes) column indicates the company\u2019s earnings from core business operations before considering interest and taxes."
+      },
+      "Operating_CF": {
+        "dt": "n",
+        "c": "The 'Operating_CF' (Operating Cash Flow) column tracks the cash generated by the company\u2019s core business operations."
+      },
+      "SBC": {
+        "dt": "n",
+        "c": "The 'SBC' (Stock-Based Compensation) column represents the total amount of compensation paid in stock rather than cash."
+      },
+      "SBC_Rev": {
+        "dt": "n",
+        "c": "The 'SBC_Rev' column represents stock-based compensation as a percentage of the company's total revenue."
+      },
+      "Investing_CF": {
+        "dt": "n",
+        "c": "The 'Investing_CF' (Investing Cash Flow) column tracks the cash flows associated with the company\u2019s investments in assets, acquisitions, or divestitures."
+      },
+      "Financing_CF": {
+        "dt": "n",
+        "c": "The 'Financing_CF' (Financing Cash Flow) column tracks the cash flows from activities like issuing debt or equity, or repurchasing shares."
+      },
+      "Net_CF": {
+        "dt": "n",
+        "c": "The 'Net_CF' (Net Cash Flow) column represents the total cash flow after accounting for operating, investing, and financing activities."
+      },
+      "CapEx": {
+        "dt": "n",
+        "c": "The 'CapEx' (Capital Expenditures) column tracks the amount of money the company spends on acquiring or maintaining physical assets such as buildings, machinery, and equipment."
+      },
+      "FCF": {
+        "dt": "n",
+        "c": "The 'FCF' (Free Cash Flow) column represents the cash that the company generates after accounting for capital expenditures."
+      },
+      "FCF_SBC": {
+        "dt": "n",
+        "c": "The 'FCF_SBC' column represents the free cash flow minus stock-based compensation."
+      },
+      "FCF_Share": {
+        "dt": "n",
+        "c": "The 'FCF_Share' column tracks the free cash flow per share, which is important for evaluating the company's cash generation on a per-share basis, providing insight into its financial health relative to the number of shares outstanding."
+      },
+      "FCF_Growth": {
+        "dt": "n",
+        "c": "The 'FCF_Growth' column measures the growth rate of the company's free cash flow."
+      },
+      "FCF_Growth_Q": {
+        "dt": "n",
+        "c": "The 'FCF_Growth_Q' column tracks the quarterly growth rate of free cash flow."
+      },
+      "FCF_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'FCF_Growth_3Y' column measures the free cash flow growth over the past three years, offering a medium-term view of how well the company is increasing its cash reserves."
+      },
+      "FCF_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'FCF_Growth_5Y' column tracks the free cash flow growth over the past five years, helping investors assess the company's long-term cash generation trend."
+      },
+      "Total_Cash": {
+        "dt": "n",
+        "c": "The 'Total_Cash' column tracks the total amount of cash on hand for the company."
+      },
+      "Total_Debt": {
+        "dt": "n",
+        "c": "The 'Total_Debt' column represents the total debt obligations of the company."
+      },
+      "Debt_Growth_YoY": {
+        "dt": "n",
+        "c": "The 'Debt_Growth_YoY' column measures the year-over-year growth rate of the company's debt."
+      },
+      "Debt_Growth_QoQ": {
+        "dt": "n",
+        "c": "The 'Debt_Growth_QoQ' column tracks the quarter-over-quarter change in the company\u2019s debt."
+      },
+      "Debt_Growth_3Y": {
+        "dt": "n",
+        "c": "The 'Debt_Growth_3Y' column measures the growth in total debt over the past three years, helping evaluate the company\u2019s medium-term debt strategy and risk profile."
+      },
+      "Debt_Growth_5Y": {
+        "dt": "n",
+        "c": "The 'Debt_Growth_5Y' column tracks the growth in total debt over the past five years, providing a long-term view of the company\u2019s debt management and financial leverage."
+      },
+      "Net_Cash": {
+        "dt": "n",
+        "c": "The 'Net_Cash' column represents the company\u2019s net cash position, calculated by subtracting total debt from total cash."
+      },
+      "Net_Cash_Growth": {
+        "dt": "n",
+        "c": "The 'Net_Cash_Growth' column tracks the growth rate of the company's net cash position."
+      },
+      "Cash_M_Cap": {
+        "dt": "n",
+        "c": "The 'Cash_M_Cap' column shows the proportion of cash relative to the company\u2019s market capitalization."
+      },
+      "Assets": {
+        "dt": "n",
+        "c": "The 'Assets' column represents the total assets owned by the company, including both current and long-term assets."
+      },
+      "Liabilities": {
+        "dt": "n",
+        "c": "The 'Liabilities' column tracks the total liabilities the company is responsible for, including both short-term and long-term obligations."
+      },
+      "Gross_Margin": {
+        "dt": "n",
+        "c": "The 'Gross_Margin' column represents the percentage of revenue that exceeds the cost of goods sold (COGS)."
+      },
+      "Oper_Margin": {
+        "dt": "n",
+        "c": "The 'Oper_Margin' column tracks the operating margin, calculated as operating income divided by revenue."
+      },
+      "Pretax_Margin": {
+        "dt": "n",
+        "c": "The 'Pretax_Margin' column measures the percentage of revenue remaining after operating expenses but before tax expenses."
+      },
+      "Profit_Margin": {
+        "dt": "n",
+        "c": "The 'Profit_Margin' column tracks the net profit margin, calculated as net income divided by revenue."
+      },
+      "FCF_Margin": {
+        "dt": "n",
+        "c": "The 'FCF_Margin' column represents the free cash flow margin, calculated as free cash flow divided by revenue."
+      },
+      "EBITDA_Margin": {
+        "dt": "n",
+        "c": "The 'EBITDA_Margin' column tracks the EBITDA margin, calculated as EBITDA divided by revenue."
+      },
+      "EBIT_Margin": {
+        "dt": "n",
+        "c": "The 'EBIT_Margin' column represents the EBIT margin, calculated as EBIT divided by revenue."
+      },
+      "R_D": {
+        "dt": "n",
+        "c": "The 'R_D' (Research and Development) column tracks the company's spending on research and development activities."
+      },
+      "R_D_Rev": {
+        "dt": "n",
+        "c": "The 'R_D_Rev' column represents research and development expenses as a percentage of total revenue."
+      },
+      "PS_Ratio": {
+        "dt": "n",
+        "c": "The 'PS_Ratio' (Price-to-Sales Ratio) column represents the ratio of a company's market capitalization to its total revenue."
+      },
+      "Forward_PS": {
+        "dt": "n",
+        "c": "The 'Forward_PS' column represents the forward price-to-sales ratio, based on estimated future revenues."
+      },
+      "PB_Ratio": {
+        "dt": "n",
+        "c": "The 'PB_Ratio' (Price-to-Book Ratio) column tracks the ratio of a company's market value to its book value."
+      },
+      "P_FCF_Ratio": {
+        "dt": "n",
+        "c": "The 'P_FCF_Ratio' (Price-to-Free Cash Flow Ratio) column represents the ratio of a company's market capitalization to its free cash flow."
+      },
+      "PEG_Ratio": {
+        "dt": "n",
+        "c": "The 'PEG_Ratio' (Price/Earnings-to-Growth Ratio) column represents the price-to-earnings ratio adjusted for growth."
+      },
+      "EV_Sales": {
+        "dt": "n",
+        "c": "The 'EV_Sales' column represents the enterprise value to sales ratio, a measure used to assess the value of a company relative to its revenue."
+      },
+      "Fwd_EV_S": {
+        "dt": "n",
+        "c": "The 'Fwd_EV_S' column tracks the forward enterprise value to sales ratio, based on projected future sales."
+      },
+      "EV_Earnings": {
+        "dt": "n",
+        "c": "The 'EV_Earnings' column represents the ratio of enterprise value to earnings."
+      },
+      "EV_EBITDA": {
+        "dt": "n",
+        "c": "The 'EV_EBITDA' column tracks the enterprise value to EBITDA ratio, which compares a company's total value (enterprise value) to its earnings before interest, taxes, depreciation, and amortization."
+      },
+      "EV_EBIT": {
+        "dt": "n",
+        "c": "The 'EV_EBIT' column tracks the enterprise value to EBIT ratio, helping investors evaluate a company\u2019s total value relative to its operating income, before interest expenses and taxes."
+      },
+      "EV_FCF": {
+        "dt": "n",
+        "c": "The 'EV_FCF' column represents the enterprise value to free cash flow ratio, helping investors assess how much they are paying for each dollar of free cash flow generated by the company."
+      },
+      "Earnings_Yield": {
+        "dt": "n",
+        "c": "The 'Earnings_Yield' column tracks the earnings yield percentage, which is the inverse of the P/E ratio and measures the earnings generated per dollar invested in the stock."
+      },
+      "FCF_Yield": {
+        "dt": "n",
+        "c": "The 'FCF_Yield' column represents the free cash flow yield, a metric that reflects how much free cash flow the company generates relative to its enterprise value."
+      },
+      "FCF_EV": {
+        "dt": "n",
+        "c": "The 'FCF_EV' column tracks the ratio of free cash flow over enterprise value, helping to evaluate the financial flexibility and cash generation capacity of a company in relation to its total value."
+      },
+      "Payout_Ratio": {
+        "dt": "n",
+        "c": "The 'Payout_Ratio' column represents the proportion of earnings paid out to shareholders as dividends."
+      },
+      "Payout_Freq": {
+        "dt": "t",
+        "c": "The 'Payout_Freq' column refers to the frequency with which dividends are paid, such as quarterly, annually, or semi-annually."
+      },
+      "Buyback_Yield": {
+        "dt": "n",
+        "c": "The 'Buyback_Yield' column tracks the percentage of shares repurchased by the company relative to its market value."
+      },
+      "Shareholder_Yield": {
+        "dt": "n",
+        "c": "The 'Shareholder_Yield' column combines dividends and stock buybacks to show the total return to shareholders."
+      },
+      "Avg_Volume": {
+        "dt": "n",
+        "c": "The 'Avg_Volume' column tracks the average trading volume of the company's stock over a certain period."
+      },
+      "Rel_Volume": {
+        "dt": "n",
+        "c": "The 'Rel_Volume' column represents the relative volume, comparing the current trading volume to its average."
+      },
+      "Gap_percent": {
+        "dt": "n",
+        "c": "The 'Gap_percent' column tracks the percentage price gap at the open, comparing the opening price to the previous day's closing price."
+      },
+      "Chg_Open_percent": {
+        "dt": "n",
+        "c": "The 'Chg_Open_percent' column measures the percentage change from the opening price to the current price."
+      },
+      "Beta_5Y": {
+        "dt": "n",
+        "c": "The 'Beta_5Y' column tracks the company's beta coefficient over the past five years, which measures the stock's volatility relative to the broader market."
+      },
+      "RSI": {
+        "dt": "n",
+        "c": "The 'RSI' (Relative Strength Index) column represents a technical analysis indicator that measures the magnitude of recent price changes to evaluate overbought or oversold conditions."
+      },
+      "RSI_W": {
+        "dt": "n",
+        "c": "The 'RSI_W' column represents the weekly Relative Strength Index, a momentum indicator used to determine whether a stock is overbought or oversold in the short term."
+      },
+      "RSI_M": {
+        "dt": "n",
+        "c": "The 'RSI_M' column tracks the monthly Relative Strength Index, helping to assess longer-term trends in the stock's price movement and potential reversal points."
+      },
+      "ATR": {
+        "dt": "n",
+        "c": "The 'ATR' (Average True Range) column measures volatility by analyzing the range between the high and low prices over a specific period."
+      },
+      "Short_percent_Float": {
+        "dt": "n",
+        "c": "The 'Short_percent_Float' column tracks the percentage of shares outstanding that are currently being shorted."
+      },
+      "Short_percent_Shares": {
+        "dt": "n",
+        "c": "The 'Short_percent_Shares' column represents the percentage of a company's shares that are being shorted."
+      },
+      "Short_Ratio": {
+        "dt": "n",
+        "c": "The 'Short_Ratio' column tracks the number of days it would take for short sellers to cover their positions based on average daily trading volume."
+      },
+      "Shares_Out": {
+        "dt": "n",
+        "c": "The 'Shares_Out' column represents the total number of shares outstanding for a company."
+      },
+      "Float": {
+        "dt": "n",
+        "c": "The 'Float' column represents the number of shares available for trading on the market."
+      },
+      "Shares_Ch_YoY": {
+        "dt": "n",
+        "c": "The 'Shares_Ch_YoY' column tracks the year-over-year change in the number of shares outstanding, helping to understand the company\u2019s share issuance or buyback activities."
+      },
+      "Shares_Ch_QoQ": {
+        "dt": "n",
+        "c": "The 'Shares_Ch_QoQ' column represents the quarter-over-quarter change in the number of shares outstanding."
+      },
+      "Shares_Insiders": {
+        "dt": "n",
+        "c": "The 'Shares_Insiders' column tracks the number of shares held by company insiders, such as executives and employees."
+      },
+      "Shares_Institutions": {
+        "dt": "n",
+        "c": "The 'Shares_Institutions' column tracks the number of shares held by institutional investors, such as mutual funds or pension funds."
+      },
+      "Earnings_Date": {
+        "dt": "d",
+        "c": "The 'Earnings_Date' column contains the scheduled date for the company\u2019s earnings announcement."
+      },
+      "Earnings_Time": {
+        "dt": "u",
+        "c": "The 'Earnings_Time' column represents the time of day at which the company will announce its earnings."
+      },
+      "Is_SPAC": {
+        "dt": "b",
+        "c": "The 'Is_SPAC' column indicates whether the company is a Special Purpose Acquisition Company (SPAC)."
+      },
+      "Options": {
+        "dt": "b",
+        "c": "The 'Options' column indicates whether options trading is available for the company\u2019s stock."
+      },
+      "Ex_Div_Date": {
+        "dt": "d",
+        "c": "The 'Ex_Div_Date' column tracks the ex-dividend date, which is the cutoff date to qualify for the next dividend payout."
+      },
+      "Payment_Date": {
+        "dt": "d",
+        "c": "The 'Payment_Date' column represents the actual date when the dividend payment is made to shareholders."
+      },
+      "ROE": {
+        "dt": "n",
+        "c": "The 'ROE' (Return on Equity) column measures a company\u2019s profitability in relation to shareholders' equity."
+      },
+      "ROA": {
+        "dt": "n",
+        "c": "The 'ROA' (Return on Assets) column measures a company\u2019s ability to generate profit from its assets."
+      },
+      "ROIC": {
+        "dt": "n",
+        "c": "The 'ROIC' (Return on Invested Capital) column measures the return a company generates on its invested capital, including debt and equity."
+      },
+      "ROE_5Y": {
+        "dt": "n",
+        "c": "The 'ROE_5Y' column represents the 5-year average return on equity."
+      },
+      "ROA_5Y": {
+        "dt": "n",
+        "c": "The 'ROA_5Y' column tracks the 5-year average return on assets, providing a longer-term view of how efficiently the company is utilizing its assets to generate profits."
+      },
+      "ROIC_5Y": {
+        "dt": "n",
+        "c": "The 'ROIC_5Y' column measures the 5-year average return on invested capital."
+      },
+      "Rev_Employee": {
+        "dt": "n",
+        "c": "The 'Rev_Employee' column calculates revenue per employee."
+      },
+      "Prof_Employee": {
+        "dt": "n",
+        "c": "The 'Prof_Employee' column calculates profit per employee."
+      },
+      "Asset_Turnover": {
+        "dt": "n",
+        "c": "The 'Asset_Turnover' column measures the company\u2019s ability to generate revenue from its assets."
+      },
+      "Inv_Turnover": {
+        "dt": "n",
+        "c": "The 'Inv_Turnover' column tracks inventory turnover, indicating how quickly a company sells and replaces its inventory."
+      },
+      "Current_Ratio": {
+        "dt": "n",
+        "c": "The 'Current_Ratio' column measures a company\u2019s ability to cover its short-term liabilities with its short-term assets."
+      },
+      "Quick_Ratio": {
+        "dt": "n",
+        "c": "The 'Quick_Ratio' column is a more stringent measure than the current ratio, excluding inventory from assets."
+      },
+      "Debt_Equity": {
+        "dt": "n",
+        "c": "The 'Debt_Equity' column measures a company\u2019s financial leverage, comparing its total debt to shareholders' equity."
+      },
+      "Debt_EBITDA": {
+        "dt": "n",
+        "c": "The 'Debt_EBITDA' column measures the company\u2019s debt in relation to its earnings before interest, taxes, depreciation, and amortization."
+      },
+      "Debt_FCF": {
+        "dt": "n",
+        "c": "The 'Debt_FCF' column tracks the ratio of total debt to free cash flow."
+      },
+      "Tax_Rate": {
+        "dt": "n",
+        "c": "The 'Tax_Rate' column represents the effective tax rate paid by the company, calculated as the income tax expense divided by pre-tax income."
+      },
+      "Tax_Revenue": {
+        "dt": "n",
+        "c": "The 'Tax_Revenue' column represents the percentage of revenue that is paid in taxes."
+      },
+      "Equity": {
+        "dt": "n",
+        "c": "The 'Equity' column tracks the total equity or net worth of the company, representing the ownership value after subtracting liabilities from assets."
+      },
+      "Working_Capital": {
+        "dt": "n",
+        "c": "The 'Working_Capital' column measures the difference between current assets and current liabilities."
+      },
+      "Net_WC": {
+        "dt": "n",
+        "c": "The 'Net_WC' column tracks the net working capital, providing a clearer picture of a company\u2019s liquidity position after accounting for any outstanding liabilities."
+      },
+      "WC_Turnover": {
+        "dt": "n",
+        "c": "The 'WC_Turnover' column measures how efficiently the company utilizes its working capital."
+      },
+      "Last_Stock_Split": {
+        "dt": "t",
+        "c": "The 'Last_Stock_Split' column indicates the ratio of the company\u2019s most recent stock split, helping investors understand how the company has adjusted its share price."
+      },
+      "Last_Split_Date": {
+        "dt": "d",
+        "c": "The 'Last_Split_Date' column indicates the date of the company\u2019s most recent stock split."
+      },
+      "Z_Score": {
+        "dt": "n",
+        "c": "The 'Z_Score' column represents the Altman Z-score, a measure of a company\u2019s likelihood of bankruptcy based on financial ratios."
+      },
+      "F_Score": {
+        "dt": "n",
+        "c": "The 'F_Score' column tracks the Piotroski F-score, a metric used to assess a company's financial strength based on key indicators such as profitability, leverage, and operational efficiency."
+      },
+      "EPS_Gr_This_Q": {
+        "dt": "n",
+        "c": "The 'EPS_Gr_This_Q' column represents the expected or reported earnings per share (EPS) growth for the current quarter."
+      },
+      "EPS_Gr_Next_Q": {
+        "dt": "n",
+        "c": "The 'EPS_Gr_Next_Q' column represents the forecasted earnings per share (EPS) growth for the upcoming quarter."
+      },
+      "EPS_Gr_This_Y": {
+        "dt": "n",
+        "c": "The 'EPS_Gr_This_Y' column tracks the year-to-date earnings per share growth."
+      },
+      "EPS_Gr_Next_Y": {
+        "dt": "n",
+        "c": "The 'EPS_Gr_Next_Y' column reflects the expected earnings per share growth for the next fiscal year."
+      },
+      "Rev_Gr_This_Q": {
+        "dt": "n",
+        "c": "The 'Rev_Gr_This_Q' column represents the revenue growth rate for the current quarter."
+      },
+      "Rev_Gr_Next_Q": {
+        "dt": "n",
+        "c": "The 'Rev_Gr_Next_Q' column indicates the expected revenue growth for the upcoming quarter."
+      },
+      "Rev_Gr_This_Y": {
+        "dt": "n",
+        "c": "The 'Rev_Gr_This_Y' column tracks the revenue growth for the current fiscal year."
+      },
+      "Rev_Gr_Next_Y": {
+        "dt": "n",
+        "c": "The 'Rev_Gr_Next_Y' column reflects the expected revenue growth for the next fiscal year."
+      },
+      "EPS_Gr_Next_5Y": {
+        "dt": "n",
+        "c": "The 'EPS_Gr_Next_5Y' column represents the expected earnings per share growth over the next 5 years."
+      },
+      "Rev_Gr_Next_5Y": {
+        "dt": "n",
+        "c": "The 'Rev_Gr_Next_5Y' column tracks the expected revenue growth over the next 5 years."
+      },
+      "In_Index": {
+        "dt": "b",
+        "c": "The 'In_Index' column indicates whether the company is included in a major stock index, such as the S&P 500 or the Dow Jones Industrial Average."
+      },
+      "Views": {
+        "dt": "n",
+        "c": "The 'Views' column tracks the number of views or the level of interest the company is receiving in terms of media coverage, analyst reports, or investor attention."
+      },
+      "Int_Cov": {
+        "dt": "n",
+        "c": "The 'Int_Cov' (Interest Coverage) ratio measures a company\u2019s ability to meet its interest payments on outstanding debt."
+      },
+      "Return_IPO": {
+        "dt": "n",
+        "c": "The 'Return_IPO' column represents the total return since the company\u2019s initial public offering (IPO)."
+      },
+      "Return_IPO_Open": {
+        "dt": "n",
+        "c": "The 'Return_IPO_Open' column reflects the return on investment since the company\u2019s IPO opening price."
+      },
+      "20_MA": {
+        "dt": "n",
+        "c": "The '20_MA' column represents the 20-day moving average of the company\u2019s stock price."
+      },
+      "50_MA": {
+        "dt": "n",
+        "c": "The '50_MA' column tracks the 50-day moving average of the stock price."
+      },
+      "200_MA": {
+        "dt": "n",
+        "c": "The '200_MA' column represents the 200-day moving average of the stock price."
+      },
+      "50MA_Chg_percent": {
+        "dt": "n",
+        "c": "The '50MA_Chg_percent' column tracks the percentage change in the 50-day moving average."
+      },
+      "200MA_Chg_percent": {
+        "dt": "n",
+        "c": "The '200MA_Chg_percent' column tracks the percentage change in the 200-day moving average."
+      },
+      "SIC_Code": {
+        "dt": "t",
+        "c": "The 'SIC_Code' (Standard Industrial Classification Code) is a numerical code that classifies the company by its industry."
+      },
+      "CIK_Code": {
+        "dt": "t",
+        "c": "The 'CIK_Code' (Central Index Key) is a unique identifier assigned by the SEC to each company that files with the agency."
+      },
+      "ISIN_Number": {
+        "dt": "t",
+        "c": "The 'ISIN_Number' (International Securities Identification Number) is a unique identifier for securities traded internationally."
+      },
+      "CUSIP_Number": {
+        "dt": "t",
+        "c": "The 'CUSIP_Number' is a unique identification number for U."
+      },
+      "Website": {
+        "dt": "t",
+        "c": "The 'Website' column contains the official URL for the company\u2019s website."
+      }
+    }
+  }
+}

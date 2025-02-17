@@ -1,0 +1,1302 @@
+{
+    "subscription.db" : {
+        "payroll.table":{
+            "Payroll_Start": {
+                "data_type": "TEXT",
+                "context": "The 'Payroll_Start' column likely contains information related to the start date of a payroll period. It may include details such as the beginning date of the pay cycle or the date when payroll processing begins. This column is crucial for tracking and managing employee compensation and ensuring timely and accurate payroll processing."
+            },
+            "Payroll_Expiry": {
+                "data_type": "TEXT",
+                "context": "The 'Payroll_Expiry' column likely contains information related to the expiration dates of payroll-related documents or records. It may include details such as the date when payroll information needs to be updated or renewed to ensure compliance with regulations and accuracy in employee compensation. Monitoring this column can help organizations stay organized and avoid any issues related to outdated or invalid payroll data."
+            },
+            "Payroll_Payment_Method": {
+                "data_type": "TEXT",
+                "context": "The 'Payroll_Payment_Method' column in a business dataset typically stores information about the method used to pay employees their wages or salaries. This could include options such as direct deposit, paper check, or electronic payment systems. Understanding this column can help businesses analyze their payroll processes and ensure timely and accurate compensation for their employees."
+            },
+            "Payroll_Status": {
+                "data_type": "TEXT",
+                "context": "The 'Payroll_Status' column typically indicates the current status of an employee's payroll within an organization. It may contain information such as whether an employee is active, on leave, terminated, or any other relevant status related to their compensation. This column is crucial for HR and payroll departments to track and manage employee payments accurately."
+            },
+            "Payroll_Headcount": {
+                "data_type": "INTEGER",
+                "context": "The 'Payroll_Headcount' column typically contains numerical data representing the total number of employees within an organization during a specific period. This data is crucial for calculating various payroll-related metrics such as labor costs, employee benefits, and workforce productivity. Analyzing trends in the 'Payroll_Headcount' column can provide insights into staffing levels, workforce management strategies, and overall business performance."
+            },
+            "Payroll_Sales_Person": {
+                "data_type": "TEXT",
+                "context": "The column 'Payroll_Sales_Person' likely contains information related to sales personnel who are responsible for selling payroll services or products. It may include details such as the name of the salesperson, their sales performance, commissions earned, or other relevant data related to payroll sales. This column could be used to track and analyze the effectiveness and contributions of sales representatives in the payroll department."
+            },
+            "Sales_Remark": {
+                "data_type": "TEXT",
+                "context": "The 'Sales_Remark' column in a dataset typically contains comments or notes related to sales transactions or activities. These remarks may include additional context, special instructions, customer feedback, or any other relevant information that could provide insights into the sales process or customer interactions. Analyzing this column can help businesses understand customer preferences, identify potential issues, or improve their sales strategies."
+            },
+            "location": {
+                "data_type": "TEXT",
+                "context": "The column 'location' in a business dataset typically stores information about the physical or geographical location of a particular entity, such as a store, office, or warehouse. It helps businesses track where their assets are located, analyze regional trends, and make informed decisions based on geographic data. This column is crucial for businesses that operate in multiple locations or need to understand the distribution of their resources."
+            },
+            "Reseller": {
+                "data_type": "TEXT",
+                "context": "The \"Reseller\" column in Business Knowledge typically focuses on the strategies, challenges, and best practices for businesses that operate as resellers. It may cover topics such as identifying profitable products, managing supplier relationships, pricing strategies, and navigating competitive markets. Readers can gain insights into the dynamic world of reselling and learn how to optimize their operations for success."
+            },
+            "Payroll_Remarks": {
+                "data_type": "TEXT",
+                "context": "The 'Payroll_Remarks' column typically contains any additional notes or comments related to an employee's payroll information. These remarks could include details about overtime hours, bonuses, deductions, or any other relevant information that may impact the employee's pay. Employers use this column to provide transparency and clarity regarding payroll calculations and any special circumstances that may affect an employee's compensation."
+            }},
+        "claims.table":{
+            "Claims_Start": {
+                "data_type": "TEXT",
+                "context": "The 'Claims_Start' column likely contains the date or timestamp when a claim was initiated or filed within a dataset. This column is crucial for tracking the beginning of the claims process for insurance companies, healthcare providers, or any organization that handles claims. Analyzing trends or patterns in the 'Claims_Start' column can help identify peak claim periods, assess processing times, and optimize workflow efficiency."
+            },
+            "Claims_Expiry": {
+                "data_type": "TEXT",
+                "context": "The 'Claims_Expiry' column likely contains information related to the expiration dates of insurance claims or other types of claims. This column could be used to track the deadline by which a claim must be filed or resolved to be considered valid. Analyzing this data may help identify trends in claim processing times and ensure timely resolution of claims to avoid potential losses for the organization."
+            },
+            "Claims_Payment_Method": {
+                "data_type": "TEXT",
+                "context": "The 'Claims_Payment_Method' column in the dataset likely contains information about the method or process used to pay out insurance claims. This column may include details such as whether the payment was made via check, direct deposit, wire transfer, or other payment methods. Analyzing this column could provide insights into the efficiency and preferences of the payment system within the insurance company."
+            },
+            "Claims_Status": {
+                "data_type": "TEXT",
+                "context": "The 'Claims_Status' column in a business dataset typically provides information on the current status of insurance claims or reimbursement requests. This column may include categories such as \"Pending\", \"Approved\", \"Denied\", or \"Paid\" to indicate the progress of each claim. Analyzing this column can help businesses track the efficiency of their claims processing system and identify any bottlenecks in the reimbursement process."
+            },
+            "Claims_Headcount": {
+                "data_type": "INTEGER",
+                "context": "The 'Claims_Headcount' column likely contains data related to the number of employees or individuals involved in processing insurance claims within a company or organization. This column may provide insights into the staffing levels and resource allocation within the claims department, helping to track workload distribution and operational efficiency. Analyzing trends in this column could help identify potential bottlenecks or opportunities for process improvement in the claims processing workflow."
+            },
+            "Claims_Sales_Person": {
+                "data_type": "TEXT",
+                "context": "The 'Claims_Sales_Person' column likely contains information related to the sales performance or activities of individual salespersons within an insurance company or a similar industry. It may include data such as the number of claims processed or sold by each salesperson, their sales targets, commissions earned, or other relevant metrics. Analyzing this column can provide insights into the effectiveness and productivity of individual sales team members in generating revenue through claims processing or sales activities."
+            },
+             "Claims_Remarks": {
+                "data_type": "TEXT",
+                "context": "The 'Claims_Remarks' column in a business dataset typically contains information related to any claims or remarks made by customers, clients, or employees. This column often includes details about complaints, feedback, suggestions, or issues raised by individuals interacting with the business. Analyzing the data in this column can help businesses identify common trends, improve customer service, and address any areas of concern to enhance overall operations."
+            }
+        },
+        "HRIS.table":{
+            "HRIS_Start": {
+                "data_type": "TEXT",
+                "context": "The column 'HRIS_Start' likely captures the date when an employee's information was entered into the Human Resources Information System (HRIS). This data point can be used to track the onboarding process of new employees and ensure that their details are accurately recorded in the system. Analyzing this information over time can help HR professionals identify trends in employee data entry and assess the efficiency of their HRIS implementation."
+            },
+            "HRIS_Expiry": {
+                "data_type": "TEXT",
+                "context": "The 'HRIS_Expiry' column in the HRIS (Human Resources Information System) database tracks the expiration dates of various HR-related documents and certifications for employees. This column is crucial for HR managers to stay organized and ensure that employees are compliant with necessary requirements. By monitoring this data, HR can proactively address any upcoming expirations and prevent any lapses in compliance."
+            },
+            "HRIS_Payment_Method": {
+                "data_type": "TEXT",
+                "context": "The 'HRIS_Payment_Method' column in a Human Resources Information System (HRIS) database typically stores information about the payment method chosen by employees for receiving their salaries, bonuses, and other compensation. This data helps HR departments efficiently manage payroll processes, track payment preferences, and ensure accurate and timely disbursement of funds to employees. The column may contain values such as direct deposit, check, wire transfer, or other payment methods supported by the organization."
+            },
+            "HRIS_Status": {
+                "data_type": "TEXT",
+                "context": "The 'HRIS_Status' column in a business dataset typically refers to the current status of an employee within the Human Resources Information System (HRIS). This column may contain information such as whether an employee is active, on leave, terminated, or any other relevant status. It is a key data point used by HR professionals to track and manage employee information effectively."
+            },
+            "HRIS_Headcount": {
+                "data_type": "INTEGER",
+                "context": "The 'HRIS_Headcount' column in the dataset likely contains information related to the headcount or number of employees within a company as captured by the Human Resources Information System (HRIS). This data may include details such as the total number of employees, department-wise headcounts, or changes in headcount over time. Analyzing this column can provide insights into workforce trends, resource allocation, and overall organizational growth or contraction."
+            },
+            "HRIS_Sales_Person": {
+                "data_type": "TEXT",
+                "context": "The 'HRIS_Sales_Person' column likely contains information related to the sales personnel responsible for selling Human Resources Information Systems (HRIS) within a company. This column may include details such as the names, contact information, sales performance metrics, and territories assigned to each salesperson. It serves as a crucial data point for tracking and managing the sales activities and effectiveness of the HRIS sales team."
+            },
+            "HRIS_Remarks": {
+                "data_type": "TEXT",
+                "context": "The column 'HRIS_Remarks' in a database or system typically stores additional notes, comments, or observations related to Human Resources Information System (HRIS) data. This column is used to capture any special instructions, feedback, or explanations that may be relevant for understanding or interpreting the HRIS data. HRIS_Remarks can provide valuable context or insights for HR professionals, managers, or analysts using the system for workforce planning, decision-making, or reporting purposes."
+            }},
+        "leave.table":{
+            "Leave_Start": {
+                "data_type": "TEXT",
+                "context": "The 'Leave_Start' column likely contains data related to the start date of an employee's leave of absence. This information could be crucial for tracking employee time off, managing work schedules, and ensuring appropriate coverage during the employee's absence. The column may include dates or timestamps indicating when the leave officially begins."
+            },
+            "Leave_Expiry": {
+                "data_type": "TEXT",
+                "context": "The 'Leave_Expiry' column likely contains information about the expiration date of accumulated leave days for employees. This data is crucial for organizations to ensure that employees utilize their entitled leave days within a specified timeframe to maintain a healthy work-life balance. Monitoring leave expiry dates can also help businesses manage staffing levels effectively and prevent disruptions due to sudden absences."
+            },
+            "Leave_Payment_Method": {
+                "data_type": "TEXT",
+                "context": "The 'Leave_Payment_Method' column in a business dataset typically stores information about the method used to pay employees for their accrued leave time. This could include options such as direct deposit, check, or any other form of payment agreed upon by the employer and employee. Understanding the payment method for leave is crucial for tracking and managing employee benefits and compensation effectively."
+            },
+            "Leave_Status": {
+                "data_type": "TEXT",
+                "context": "The 'Leave_Status' column in a business dataset typically indicates the current status of an employee's leave request. This column may contain values such as 'Pending' for leave requests that are awaiting approval, 'Approved' for those that have been granted, 'Rejected' for requests that have been denied, or 'Cancelled' for requests that have been withdrawn by the employee. Monitoring and analyzing this column can help HR teams track leave management processes and ensure proper staffing levels are maintained."
+            },
+            "Leave_Headcount": {
+                "data_type": "INTEGER",
+                "context": "The 'Leave_Headcount' column in the business dataset tracks the number of employees who have taken leaves of absence or time off within a specific period. It provides insights into the frequency and duration of employee leaves, which can be used to analyze workforce management and potential impacts on productivity. Monitoring trends in 'Leave_Headcount' can help HR departments and management teams make informed decisions regarding staffing levels and employee well-being initiatives."
+            },
+            "Leave_Sales_Person": {
+                "data_type": "TEXT",
+                "context": "The 'Leave_Sales_Person' column in a business dataset typically contains information about whether a salesperson has left the company or is still employed. This column is crucial for tracking turnover rates and analyzing the impact of salesperson departures on sales performance. By monitoring this column, businesses can make informed decisions regarding recruitment, training, and retention strategies for their sales team."
+            },
+            "Leave_Remarks": {
+                "data_type": "TEXT",
+                "context": "The 'Leave_Remarks' column in a business dataset typically contains comments or notes left by users or employees regarding a specific event, transaction, or record. These remarks can provide additional context, explanations, or insights into the data for future reference or analysis. The column serves as a valuable tool for capturing qualitative information that may not be captured in other structured data fields."
+            }},
+        "hadir.table":{
+            "Hadir_Start": {
+                "data_type": "TEXT",
+                "context": "The 'Hadir_Start' column likely contains data related to the attendance or start time of an event, meeting, or work shift. It may include timestamps or codes indicating when individuals arrived or when a particular activity began. This column could be used to track punctuality, analyze patterns in start times, or monitor adherence to schedules."
+            },
+            "Hadir_Expiry": {
+                "data_type": "TEXT",
+                "context": "The 'Hadir_Expiry' column likely contains information related to the expiration date or validity period of attendance records or data. It may indicate the duration for which attendance records are considered valid or active before they expire. This column could be crucial for monitoring and managing attendance data to ensure its accuracy and relevance over time."
+            },
+            "Hadir_Payment_Method": {
+                "data_type": "TEXT",
+                "context": "The column 'Hadir_Payment_Method' in the dataset likely contains information about the various payment methods used by customers or clients to make payments for services or products provided by the business. It may include details such as credit card, cash, online transfer, or other forms of payment accepted by the company. Analyzing this column can provide insights into the preferred payment methods of customers and help in optimizing payment processes for increased convenience and efficiency."
+            },
+            "Hadir_Status": {
+                "data_type": "TEXT",
+                "context": "The 'Hadir_Status' column likely contains information related to the attendance status of individuals or employees. It may include values such as 'present,' 'absent,' 'late,' or other similar indicators to track the attendance of individuals for a specific event, meeting, or workday. This column can be used for monitoring and analyzing attendance patterns, identifying trends, and assessing overall punctuality within a given group or organization."
+            },
+            "Hadir_Headcount": {
+                "data_type": "INTEGER",
+                "context": "The 'Hadir_Headcount' column likely contains data related to the number of employees or attendees present at a specific event, location, or within an organization at a given time. This column can be used to track attendance, monitor staffing levels, or analyze workforce trends. By capturing headcount data, businesses can make informed decisions regarding resource allocation, scheduling, and overall operational efficiency."
+            },
+            "Hadir_Sales_Person": {
+                "data_type": "TEXT",
+                "context": "The 'Hadir_Sales_Person' column in a business dataset likely contains information about the presence or attendance of sales personnel during specific events, such as meetings, presentations, or client interactions. This column could be used to track the level of engagement and participation of sales staff in various business activities, providing insights into their performance and contribution to the organization's sales efforts. Analyzing this data could help businesses identify patterns, trends, and opportunities to optimize their sales team's effectiveness and productivity."
+            },
+            "Hadir_Remarks": {
+                "data_type": "TEXT",
+                "context": "The 'Hadir_Remarks' column likely contains notes or comments related to attendance or presence. It could include explanations for absences, tardiness, or other remarks regarding an individual's attendance at a specific event, meeting, or activity. This column may provide additional context or insights into the attendance patterns or behaviors of the individuals being tracked."
+            }},
+        "hr.table":{
+            "HR_Full_Name": {
+                "data_type": "TEXT",
+                "context": "The column 'HR_Full_Name' likely contains the full name of the Human Resources personnel in a company. This information can be used for internal communication, employee queries, and documentation purposes. It helps in identifying the HR contact person responsible for handling various employee-related matters within the organization."
+            },
+            "HR_Email": {
+                "data_type": "TEXT",
+                "context": "The 'HR_Email' column likely contains email addresses of employees or contacts within the Human Resources department. This information may be used for communication related to HR matters, such as benefits enrollment, training programs, or policy updates. It is crucial for maintaining efficient and effective internal HR processes within an organization."
+            }},
+        "customer.table":{
+            "Name": {
+                "data_type": "TEXT",
+                "context": "The 'Name' column typically contains the names of individuals, companies, products, or any other entities relevant to the dataset. It serves as a unique identifier for each entry in the dataset, allowing for easy reference and organization. The 'Name' column is commonly used for sorting, filtering, and grouping data based on specific entities."
+            },
+            "Todo": {
+                "data_type": "TEXT",
+                "context": "The 'Todo' column is a designated space where tasks and action items are listed for completion. It serves as a visual representation of pending work that needs to be addressed or completed. Users can prioritize, organize, and track their tasks efficiently within this column."
+            },
+            "Phone": {
+                "data_type": "TEXT",
+                "context": "The \"Phone\" column in a business dataset typically contains information related to the telephone numbers associated with customers, employees, or contacts. This data is essential for communication purposes, such as reaching out to customers for marketing campaigns or contacting employees for work-related matters. The phone numbers in this column may be used for various functions, including customer support, sales calls, or internal communication within the organization."
+            },
+            "Registration_Date": {
+                "data_type": "TEXT",
+                "context": "The 'Registration_Date' column in a dataset likely contains information about the date when individuals or entities registered for a service, event, or system. This column can be useful for tracking the timeline of registrations and analyzing patterns in registration trends over time. It can also help in identifying the most popular registration dates and optimizing registration processes."
+            },
+            "Employee_Number": {
+                "data_type": "INTEGER",
+                "context": "The 'Employee_Number' column typically stores a unique identifier assigned to each employee within an organization. This column is crucial for tracking and managing employee records, as it allows for easy identification and differentiation among staff members. The Employee_Number column is often used in HR systems and databases to streamline processes such as payroll, benefits administration, and performance evaluations."
+            },
+            "Payroll_History_Number": {
+                "data_type": "REAL",
+                "context": "The 'Payroll_History_Number' column typically stores a numerical value that represents the chronological order of payroll processing. This column helps track the history of payroll runs within a company, allowing for easy reference and analysis of past payroll cycles. It is commonly used in payroll systems to ensure accuracy and compliance with payment regulations."
+            },
+            "Confirmed_Payroll_History_Number": {
+                "data_type": "INTEGER",
+                "context": "The 'Confirmed_Payroll_History_Number' column in a business dataset typically represents the unique identification number assigned to each confirmed payroll history record. This column helps in tracking and referencing specific payroll transactions within the dataset, providing a clear chronological order for each payroll history entry. It is a crucial identifier for accurately analyzing and auditing payroll data over time."
+            },
+            "Latest_Confirmed_Payroll_History_Date": {
+                "data_type": "TEXT",
+                "context": "The column 'Latest_Confirmed_Payroll_History_Date' records the most recent date when payroll information was confirmed or updated in the system. This data point is crucial for tracking the timeliness and accuracy of payroll processing within an organization. Monitoring changes in this column can help ensure that employee compensation is handled efficiently and in compliance with company policies."
+            },
+            "Claim_Number": {
+                "data_type": "REAL",
+                "context": "The 'Claim_Number' column typically stores unique identifiers assigned to individual insurance claims. These claim numbers are crucial for tracking and managing claims throughout the insurance process. They serve as a reference point for insurers, policyholders, and other stakeholders involved in the claims settlement process."
+            },
+            "Latest_Claim_Date": {
+                "data_type": "TEXT",
+                "context": "The 'Latest_Claim_Date' column in the dataset represents the most recent date on which a claim was filed by customers or clients. This column is crucial for tracking the latest activity related to claims processing and can help in monitoring the frequency and recency of claims being made. Analyzing this column can provide insights into the trends of claim submissions and help in identifying patterns that may impact the business operations."
+            },
+            "Leave_History_Number": {
+                "data_type": "REAL",
+                "context": "The 'Leave_History_Number' column likely tracks the number of leave instances or occurrences for each employee within a specified time period. This data may be used to monitor and analyze patterns in employee absences, such as frequency, duration, and reasons for taking leave. Understanding leave history can help organizations manage staffing levels, identify potential issues impacting employee well-being, and make informed decisions regarding leave policies and resource allocation."
+            },
+            "Latest_Leave_Date": {
+                "data_type": "TEXT",
+                "context": "The 'Latest_Leave_Date' column typically stores the latest possible date that an employee can take leave or vacation time. This information is important for scheduling purposes, ensuring that employees do not exceed their allotted time off or disrupt workflow by taking leave during critical periods. Monitoring and managing the latest leave dates can help organizations maintain operational efficiency and employee satisfaction."
+            },
+            "Attendance_Number": {
+                "data_type": "REAL",
+                "context": "The 'Attendance_Number' column in the dataset likely represents the count or numerical value associated with attendance at a specific event, meeting, or location. This column can be used to track and analyze attendance patterns over time, identify trends, and assess the overall level of participation. By examining the values in this column, businesses can gain insights into the popularity, engagement, and effectiveness of their events or initiatives."
+            },
+            "Latest_Attendance_Clock_in_Date": {
+                "data_type": "TEXT",
+                "context": "The column 'Latest_Attendance_Clock_in_Date' records the most recent date and time when an employee clocked in for work. This data is crucial for tracking employee attendance patterns, punctuality, and compliance with work schedules. It helps managers and HR personnel monitor workforce behavior and ensure smooth operations within the organization."
+            },
+            "Trial_Document": {
+                "data_type": "TEXT",
+                "context": "The 'Trial_Document' column in the business database contains information related to legal documents submitted as evidence during a trial or court proceeding. This column may include details such as the document name, date submitted, relevance to the case, and any associated notes or comments. It helps to track and organize the various documents used in the legal process for reference and analysis."
+            },
+            "Trail_Document_From": {
+                "data_type": "TEXT",
+                "context": "The column 'Trail_Document_From' likely captures the origin or source of a document or file within a system or database. It may track the journey or path of a document as it moves through different stages or departments. Understanding this information can help organizations maintain a clear audit trail and ensure accountability in document management processes."
+            },
+            "Trail_Document_To": {
+                "data_type": "TEXT",
+                "context": "The column 'Trail_Document_To' likely tracks the path or route taken by a document within a system or process. It could indicate the various stops or destinations the document has reached or is intended to reach. This information can help in monitoring and ensuring the proper flow and handling of documents within an organization."
+            },
+            "UTM_Source": {
+                "data_type": "TEXT",
+                "context": "The 'UTM_Source' column in business terminology refers to a parameter used in tracking the source of website traffic. It helps businesses identify where their website visitors are coming from, such as a specific social media platform, email campaign, or referral link. By analyzing the data in the 'UTM_Source' column, businesses can determine the effectiveness of their marketing efforts and make informed decisions to optimize their online presence."
+            },
+            "UTM_Medium": {
+                "data_type": "TEXT",
+                "context": "The 'UTM_Medium' column typically contains information regarding the medium or marketing channel through which a user has accessed a website or digital platform. This data helps businesses understand the effectiveness of different marketing strategies, such as email, social media, or paid advertising, in driving traffic to their online assets. By analyzing the 'UTM_Medium' values, companies can optimize their marketing efforts and allocate resources to the most successful channels."
+            },
+            "UTM_Term": {
+                "data_type": "TEXT",
+                "context": "The 'UTM_Term' column typically refers to the specific keywords or terms used in a URL tracking parameter (UTM parameters) for tracking the effectiveness of marketing campaigns. This column helps businesses analyze which keywords are driving traffic to their website or landing pages, providing insights into the success of different marketing strategies. Marketers can use the data from the 'UTM_Term' column to optimize their campaigns and improve their ROI."
+            },
+            "Customer_ID": {
+                "data_type": "TEXT",
+                "context": "The 'Customer_ID' column is a unique identifier assigned to each individual customer in a database or system. It is used to distinguish and track customers, enabling businesses to analyze customer behavior, preferences, and activities. The Customer_ID column is crucial for customer relationship management and personalized marketing strategies."
+            },
+            "Plan_ID": {
+                "data_type": "TEXT",
+                "context": "The 'Plan_ID' column likely contains unique identifiers for different plans within a business or organization. These identifiers could be used to distinguish between various types of plans, such as insurance policies, subscription packages, or project outlines. The 'Plan_ID' column is crucial for data organization and analysis, as it helps track and manage different plans effectively."
+            },
+            "Subscription_ID": {
+                "data_type": "TEXT",
+                "context": "The 'Subscription_ID' column in the dataset contains unique identification numbers assigned to each subscription in a business's database. This column serves as a primary key to differentiate between different subscription records and is crucial for tracking and managing subscription details. Analyzing this column can provide insights into customer behavior, subscription patterns, and revenue generation for the business."
+            }},
+        "trial.table":{
+            "Trial_Payroll": {
+                "data_type": "TEXT",
+                "context": "The 'Trial_Payroll' column in a business dataset likely contains information related to trial runs or simulations of the payroll process. This column could include data on hypothetical payroll calculations, test scenarios, or experimental payroll adjustments. It is used to test the accuracy and efficiency of the payroll system before actual payroll processing takes place."
+            },
+            "Trail_Payroll_From": {
+                "data_type": "TEXT",
+                "context": "The column 'Trail_Payroll_From' likely refers to the starting date or period for payroll tracking in a system or database. It may contain information on when a specific payroll process or cycle begins, allowing users to monitor and manage payroll activities effectively. This column is essential for ensuring accurate and timely payroll processing within an organization."
+            },
+            "Trail_Payroll_To": {
+                "data_type": "TEXT",
+                "context": "The 'Trail_Payroll_To' column likely refers to the end date or cut-off date for a payroll period within a company's accounting or payroll system. This column could be used to track the period to which employee wages, bonuses, and other compensation are being calculated and processed. It helps ensure accurate and timely payment to employees based on the specified payroll period."
+            },
+            "Trial_Claim": {
+                "data_type": "TEXT",
+                "context": "The 'Trial_Claim' column in the dataset likely contains information related to claims or assertions made during a trial or legal proceedings. This column may include details such as the nature of the claim, the parties involved, and the outcome of the trial. Analyzing this column could provide insights into the types of legal issues or disputes that the dataset pertains to."
+            },
+            "Trail_Claim_From": {
+                "data_type": "TEXT",
+                "context": "The 'Trail_Claim_From' column likely contains information related to the starting point or origin of a trail claim. This data could include the specific location, address, or geographic coordinates from where the claim originates. It may be used to track the source of a claim or to analyze patterns related to the initial point of a trail claim."
+            },
+            "Trail_Claim_To": {
+                "data_type": "TEXT",
+                "context": "The column 'Trail_Claim_To' likely refers to the destination or endpoint of a specific trail or journey. It may indicate the ultimate goal or target that individuals or entities are aiming to reach. This column could be relevant in various contexts such as outdoor activities, logistics, or project management to track progress and completion."
+            }},
+        "subscription.table":{
+            "Subscription_Payroll": {
+                "data_type": "INTEGER",
+                "context": "The 'Subscription_Payroll' column likely contains information related to payroll expenses associated with subscription-based services or products. It may include details such as recurring payments made to employees or vendors for subscription services utilized by the company. This column could be crucial for tracking and managing ongoing payroll costs linked to various subscriptions within the business."
+            },
+            "Subscription_Claim": {
+                "data_type": "INTEGER",
+                "context": "The 'Subscription_Claim' column likely contains information related to claims or requests made by subscribers of a service or product. It may include details such as the type of claim, the date it was made, and any corresponding actions taken by the company to address the claim. This column could be valuable for tracking and analyzing customer feedback, resolving issues, and improving overall subscription services."
+            },
+            "Subscription_HRIS": {
+                "data_type": "INTEGER",
+                "context": "The 'Subscription_HRIS' column in a business dataset likely contains information related to the human resources information system (HRIS) subscription details. This column may include data such as the type of HRIS subscription, subscription start and end dates, pricing information, and any additional features or services included in the subscription. Analyzing this column can provide insights into the organization's HRIS usage, costs, and potential upgrades or renewals."
+            },
+            "Payment_Method": {
+                "data_type": "TEXT",
+                "context": "The 'Payment_Method' column in a dataset typically contains information about the method used to make a payment for a transaction. This column may include various payment options such as credit card, cash, online payment platforms, or other forms of payment. Analyzing this column can provide insights into customer preferences, trends in payment methods, and help businesses optimize their payment processing systems."
+            },
+            "Subscription_Payroll_V2": {
+                "data_type": "REAL",
+                "context": "The 'Subscription_Payroll_V2' column likely contains data related to subscription-based payroll services. This could include information such as subscription fees, payment schedules, and other financial details related to payroll services provided on a subscription basis. The column may be used to track and analyze subscription payroll data within a business or organization."
+            },
+            "Subscription_Claim_V2": {
+                "data_type": "REAL",
+                "context": "The 'Subscription_Claim_V2' column likely contains data related to claims made by subscribers in a subscription-based service or product. This column may include information such as the type of claim, the date it was made, and any relevant details or status updates. Analyzing this column could help businesses track and manage subscriber claims effectively."
+            },
+            "Subscription_HRIS_V2": {
+                "data_type": "REAL",
+                "context": "The 'Subscription_HRIS_V2' column likely contains data related to subscription information for a Human Resources Information System (HRIS) in a version 2 format. This data may include details such as subscription start and end dates, subscription level or tier, pricing information, and any relevant terms and conditions. Analyzing this column can provide insights into the usage, renewal patterns, and financial performance of the HRIS subscription service."
+            },
+            "Subscription_Leave_V2": {
+                "data_type": "REAL",
+                "context": "The 'Subscription_Leave_V2' column likely contains data related to customers who have decided to cancel or leave a subscription service. This column may include information such as the date of cancellation, reason for leaving, and possibly any feedback provided by the customer. Analyzing this data can help businesses understand customer churn patterns and identify areas for improvement in their subscription offerings."
+            },
+            "Subscription_Hadir_V2": {
+                "data_type": "REAL",
+                "context": "The 'Subscription_Hadir_V2' column likely contains data related to the presence or attendance of subscribers in a particular context or event. It may track the frequency, duration, or consistency of subscriber participation in activities or services offered through a subscription model. This column could be used to analyze subscriber engagement, retention rates, or to tailor personalized offerings based on subscriber behavior."
+            },
+            "Hubspot_Deal_ID": {
+                "data_type": "REAL",
+                "context": "The 'Hubspot_Deal_ID' column contains unique identification numbers assigned to each deal in the HubSpot CRM system. These IDs are used to track and manage various sales and marketing activities associated with each deal, such as lead generation, customer interactions, and deal progress. The 'Hubspot_Deal_ID' serves as a reference point for analyzing and optimizing the sales pipeline and overall business performance."
+            },
+            "Update_Date": {
+                "data_type": "TEXT",
+                "context": "The 'Update_Date' column in a database typically stores the timestamp of when a particular record was last updated. This column is crucial for tracking changes made to the data and ensuring the accuracy and integrity of the information. By referencing the 'Update_Date' column, users can easily determine the most recent modifications to a specific record."
+            }}     
+    },
+    "stock.db" : {
+        "dowjones400.table":{
+            "Symbol" : {
+                "data_type": "TEXT",
+                "context": "Company Ticker for Stock - Identification"
+            },
+            "Company_Name": {
+                "data_type": "TEXT",
+                "context": "The 'Company_Name' column represents the name of the company. This is a critical field for identifying the company in the dataset and is typically used in association with other financial and market-related data points."
+            },
+            "Market_Cap": {
+                "data_type": "NUMBER",
+                "context": "The 'Market_Cap' column stores the total market capitalization of the company. This is an important indicator of a company's size and is calculated by multiplying the current stock price by the total number of outstanding shares."
+            },
+            "Stock_Price": {
+                "data_type": "NUMBER",
+                "context": "The 'Stock_Price' column contains the current price of the company's stock. This is a critical data point for investors and analysts as it reflects the market's valuation of the company at a given time."
+            },
+            "Percentage_Change": {
+                "data_type": "NUMBER",
+                "context": "The 'Percentage_Change' column indicates the percentage change in stock price over a specific period. This value helps assess the company's short-term performance and can reflect market sentiment or news impact."
+            },
+            "Industry": {
+                "data_type": "TEXT",
+                "context": "The 'Industry' column categorizes the company into a specific sector, such as Technology, Healthcare, or Finance. This classification helps contextualize financial performance and market trends within broader industry dynamics."
+            },
+            "Volume": {
+                "data_type": "NUMBER",
+                "context": "The 'Volume' column stores the trading volume of the company's stock. It is crucial for understanding market activity, liquidity, and investor sentiment, especially during periods of volatility or significant news events."
+            },
+            "PE_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'PE_Ratio' (Price-to-Earnings Ratio) column reflects the company's valuation in relation to its earnings. A high PE ratio can indicate that a stock is overvalued or that investors are expecting high growth."
+            },
+            "Enterprise_Value": {
+                "data_type": "NUMBER",
+                "context": "The 'Enterprise_Value' column represents the total value of the company, including its market capitalization, debt, and cash reserves. It provides a more comprehensive picture of a company's worth compared to market capitalization alone."
+            },
+            "MC_Group": {
+                "data_type": "TEXT",
+                "context": "The 'MC_Group' column groups companies based on their market capitalization into categories such as Small Cap, Mid Cap, or Large Cap. This classification aids investors in assessing risk, growth potential, and investment opportunities."
+            },
+            "Sector": {
+                "data_type": "TEXT",
+                "context": "The 'Sector' column categorizes the company within a broader economic or industrial sector, such as Consumer Goods, Financial Services, or Technology. Understanding the sector helps evaluate the company's relative performance within its economic environment."
+            },
+            "Forward_PE": {
+                "data_type": "NUMBER",
+                "context": "The 'Forward_PE' column represents the price-to-earnings ratio based on forecasted earnings. It is used by analysts to assess future growth expectations and compare them to historical PE ratios."
+            },
+            "Exchange": {
+                "data_type": "TEXT",
+                "context": "The 'Exchange' column indicates the stock exchange where the company’s shares are listed, such as the NYSE, NASDAQ, or LSE. This is important for understanding the geographical location and regulations that govern the stock trading."
+            },
+            "Div_Yield": {
+                "data_type": "NUMBER",
+                "context": "The 'Div_Yield' column shows the annual dividend income as a percentage of the stock price. It is a key metric for income-focused investors who are looking for stable, recurring income from their investments."
+            },
+            "Div_Amount": {
+                "data_type": "NUMBER",
+                "context": "The 'Div_Amount' column indicates the actual amount of the dividend payment in dollars. It helps investors understand the monetary benefit of their holdings in the company."
+            },
+            "Last_Div": {
+                "data_type": "DATE",
+                "context": "The 'Last_Div' column marks the date of the most recent dividend payment. This is important for tracking the company’s dividend schedule and forecasting future payouts."
+            },
+            "Div_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'Div_Growth' column tracks the rate at which the company’s dividend payments have increased over a specific period. A high dividend growth rate is often an indicator of a company's financial health and strong cash flow generation."
+            },
+            "Years_of_Dividends": {
+                "data_type": "NUMBER",
+                "context": "The 'Years_of_Dividends' column tracks how many years the company has been paying dividends. A longer dividend-paying history is often seen as a sign of stability and reliability for investors."
+            },
+            "Div_CAGR_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Div_CAGR_5Y' column shows the compound annual growth rate of dividends over the past five years. This metric is used to assess the sustainability of dividend increases over time."
+            },
+            "Change_1W": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_1W' column represents the percentage change in stock price over the past week. This short-term change helps investors evaluate the stock's recent performance."
+            },
+            "Change_1M": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_1M' column tracks the percentage change in stock price over the past month. It is often used by traders to assess the stock’s recent momentum."
+            },
+            "Change_3M": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_3M' column measures the percentage change in stock price over the past three months. This medium-term change reflects the company’s performance over a more extended period."
+            },
+            "Change_6M": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_6M' column shows the percentage change in stock price over the past six months, offering insight into the stock’s behavior over half a year."
+            },
+            "Change_YTD": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_YTD' column indicates the percentage change in stock price year-to-date. This shows how the stock has performed relative to its start-of-year price."
+            },
+            "Change_1Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_1Y' column tracks the percentage change in stock price over the past year. It gives a good indication of the company’s annual performance and market sentiment."
+            },
+            "Change_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_3Y' column shows the percentage change in stock price over the last three years. This metric helps assess the company’s longer-term performance and growth trajectory."
+            },
+            "Change_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_5Y' column represents the percentage change in stock price over five years. It is an important metric for long-term investors and reflects the overall growth or decline of the company over an extended period."
+            },
+            "Change_10Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_10Y' column shows the percentage change in stock price over the past ten years, providing a decade-long view of the company’s stock performance."
+            },
+            "Change_15Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_15Y' column tracks the percentage change in stock price over the last 15 years. This long-term measure offers a perspective on the company’s resilience and growth over a prolonged period."
+            },
+            "Change_20Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Change_20Y' column shows the percentage change in stock price over the last 20 years, giving investors a long-term historical view of stock price evolution."
+            },
+            "Return_1W": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_1W' column represents the total return on investment over the past week, taking into account price changes, dividends, and other factors. It helps investors gauge short-term performance."
+            },
+            "Return_1M": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_1M' column tracks the total return on investment over the past month. It provides insight into the performance of the stock relative to its peers over a one-month period."
+            },
+            "Return_3M": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_3M' column measures the total return over the past three months. It is used by investors to analyze short-term performance trends and assess the stock's momentum."
+            },
+            "Return_6M": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_6M' column shows the total return over the past six months. This period reflects both short-term fluctuations and intermediate performance trends."
+            },
+            "Return_YTD": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_YTD' column represents the total return year-to-date. It provides investors with a snapshot of how the stock has performed since the beginning of the year."
+            },
+            "Return_1Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_1Y' column tracks the total return on investment over the past year. It is a key metric for assessing long-term performance over the annual cycle."
+            },
+            "Return_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_3Y' column reflects the total return over the past three years. It allows investors to analyze the company's performance over a medium-term horizon."
+            },
+            "Return_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_5Y' column shows the total return over the past five years. It helps investors assess the stock’s medium-term growth and performance consistency."
+            },
+            "Return_10Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_10Y' column provides the total return over the last ten years, offering a long-term view of the company's performance in the market."
+            },
+            "Return_15Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_15Y' column represents the total return over a 15-year period. This long-term performance indicator helps investors understand how the company has performed over multiple market cycles."
+            },
+            "Return_20Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_20Y' column tracks the total return over the last 20 years, offering a comprehensive historical view of the company’s stock performance."
+            },
+            "CAGR_1Y": {
+                "data_type": "NUMBER",
+                "context": "The 'CAGR_1Y' column represents the compound annual growth rate over the past year. It helps investors understand the annualized growth rate of the company’s performance."
+            },
+            "CAGR_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'CAGR_3Y' column tracks the compound annual growth rate over the last three years. It helps measure growth consistency over a slightly longer horizon."
+            },
+            "CAGR_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'CAGR_5Y' column shows the compound annual growth rate over the past five years. This metric is often used to assess the long-term growth trajectory of a company."
+            },
+            "CAGR_10Y": {
+                "data_type": "NUMBER",
+                "context": "The 'CAGR_10Y' column tracks the compound annual growth rate over the last ten years, providing investors with a deeper understanding of sustained growth trends over a decade."
+            },
+            "CAGR_15Y": {
+                "data_type": "NUMBER",
+                "context": "The 'CAGR_15Y' column represents the compound annual growth rate over the past 15 years. It is often used to assess a company’s performance over extended periods, showing how consistent the growth has been."
+            },
+            "CAGR_20Y": {
+                "data_type": "NUMBER",
+                "context": "The 'CAGR_20Y' column shows the compound annual growth rate over the last 20 years. It provides a very long-term view of the company’s growth and performance."
+            },
+            "52W_Low_Chg": {
+                "data_type": "NUMBER",
+                "context": "The '52W_Low_Chg' column tracks the change in price from the 52-week low. This metric can indicate how far the stock has recovered from its lowest point in the past year."
+            },
+            "52W_High_Chg": {
+                "data_type": "NUMBER",
+                "context": "The '52W_High_Chg' column measures the change in price from the 52-week high. This helps investors assess whether the stock is closer to its peak or has experienced a drop from its highest point."
+            },
+            "ATH": {
+                "data_type": "NUMBER",
+                "context": "The 'ATH' column represents the all-time high price of the stock. This is an important indicator for understanding the peak price the stock has reached since its inception."
+            },
+            "ATH_Chg_Percentage": {
+                "data_type": "NUMBER",
+                "context": "The 'ATH_Chg_Percentage' column tracks the percentage change from the all-time high price. This helps investors see how far the stock has deviated from its historical peak."
+            },
+            "ATH_Date": {
+                "data_type": "DATE",
+                "context": "The 'ATH_Date' column stores the date when the stock reached its all-time high. It provides context for the peak performance and can be useful for identifying historical trends."
+            },
+            "ATL": {
+                "data_type": "NUMBER",
+                "context": "The 'ATL' column represents the all-time low price of the stock. This is a critical data point for investors looking to understand the worst performance of the stock in its history."
+            },
+            "ATL_Chg_Percentage": {
+                "data_type": "NUMBER",
+                "context": "The 'ATL_Chg_Percentage' column indicates the percentage change from the all-time low. This shows how far the stock has recovered from its lowest recorded price."
+            },
+            "ATL_Date": {
+                "data_type": "DATE",
+                "context": "The 'ATL_Date' column stores the date when the stock reached its all-time low. This provides historical context for the stock’s performance and can help identify significant turning points."
+            },
+            "Rating": {
+                "data_type": "TEXT",
+                "context": "The 'Rating' column represents the analyst rating for the company, typically ranging from Buy, Hold, to Sell. This is important for investors to gauge how experts view the stock's potential."
+            },
+            "Analyst_Count": {
+                "data_type": "NUMBER",
+                "context": "The 'Analyst_Count' column indicates the number of analysts covering the stock. A higher number can signal that the stock is widely followed and researched by financial professionals."
+            },
+            "Price_Target": {
+                "data_type": "NUMBER",
+                "context": "The 'Price_Target' column stores the average analyst price target for the stock. This helps investors understand the price level that analysts believe the stock is likely to reach in the future."
+            },
+            "PT_Diff_Percentage": {
+                "data_type": "NUMBER",
+                "context": "The 'PT_Diff_Percentage' column tracks the percentage difference between the current stock price and the analyst’s average price target. It helps investors gauge potential upside or downside relative to analyst expectations."
+            },
+            "Open": {
+                "data_type": "NUMBER",
+                "context": "The 'Open' column represents the stock's opening price for the day. This is the first price at which the stock trades when the market opens, often used to analyze market sentiment."
+            },
+            "Low": {
+                "data_type": "NUMBER",
+                "context": "The 'Low' column indicates the lowest price the stock reached during the trading day. It provides insight into daily volatility and the range of price movements."
+            },
+            "High": {
+                "data_type": "NUMBER",
+                "context": "The 'High' column shows the highest price the stock reached during the trading day. It is used to assess the stock’s potential upside for that day."
+            },
+            "Close": {
+                "data_type": "NUMBER",
+                "context": "The 'Close' column represents the stock's closing price for the day. This is one of the most important indicators of the stock’s daily performance."
+            },
+            "Premkt_Price": {
+                "data_type": "NUMBER",
+                "context": "The 'Premkt_Price' column represents the stock's price before the market opens during pre-market trading. This price can reflect early investor sentiment and external factors affecting the stock."
+            },
+            "Premkt_Chgpercent": {
+                "data_type": "NUMBER",
+                "context": "The 'Premkt_Chgpercent' column tracks the percentage change in the stock price during pre-market trading. It helps investors gauge how the stock might open relative to its previous closing price."
+            },
+            "Premkt_Close": {
+                "data_type": "NUMBER",
+                "context": "The 'Premkt_Close' column indicates the closing price during pre-market trading. It provides a snapshot of price action before regular market hours."
+            },
+            "Afterhr_Price": {
+                "data_type": "NUMBER",
+                "context": "The 'Afterhr_Price' column represents the stock's price after the market closes, during after-hours trading. This price often reflects investor reactions to news or events released after the market's official close."
+            },
+            "Afterhr_Chgpercent": {
+                "data_type": "NUMBER",
+                "context": "The 'Afterhr_Chgpercent' column tracks the percentage change in the stock price during after-hours trading. This is useful for investors to assess any shifts in stock price due to late-breaking news or earnings reports."
+            },
+            "Afterhr_Close": {
+                "data_type": "NUMBER",
+                "context": "The 'Afterhr_Close' column shows the stock's closing price during after-hours trading. It can help investors understand the stock's price movement outside of regular trading hours."
+            },
+            "52W_Low": {
+                "data_type": "NUMBER",
+                "context": "The '52W_Low' column indicates the lowest price the stock has traded at in the last 52 weeks. It is a key metric for identifying whether the stock is near a recent low."
+            },
+            "Country": {
+                "data_type": "TEXT",
+                "context": "The 'Country' column represents the country in which the company is incorporated. This information can provide insight into the company’s market environment and regulations."
+            },
+            "52W_High": {
+                "data_type": "NUMBER",
+                "context": "The '52W_High' column represents the highest price the stock has traded at in the last 52 weeks. It helps investors gauge the stock’s recent performance relative to its highest point over the past year."
+            },
+            "State": {
+                "data_type": "TEXT",
+                "context": "The 'State' column shows the state or region where the company is incorporated, which can give investors insights into the company’s location, tax policies, and market conditions."
+            },
+            "Employees": {
+                "data_type": "NUMBER",
+                "context": "The 'Employees' column indicates the total number of employees working for the company. This is an important indicator of the company’s size and operations."
+            },
+            "Empl_Change": {
+                "data_type": "NUMBER",
+                "context": "The 'Empl_Change' column tracks the change in the number of employees over a given period. It provides insights into the company’s growth or contraction in terms of workforce."
+            },
+            "Empl_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'Empl_Growth' column shows the employee growth rate, highlighting how the company’s workforce is expanding or contracting over time."
+            },
+            "Founded": {
+                "data_type": "NUMBER",
+                "context": "The 'Founded' column indicates the year the company was founded. This provides historical context for the company’s longevity and potential stability in the market."
+            },
+            "IPO_Date": {
+                "data_type": "DATE",
+                "context": "The 'IPO_Date' column stores the date when the company went public. This helps investors track the company’s history as a public entity and evaluate its market performance since the initial offering."
+            },
+            "Last_Report_Date": {
+                "data_type": "DATE",
+                "context": "The 'Last_Report_Date' column indicates the date of the company’s most recent financial report. This is important for assessing the company’s current financial health and performance."
+            },
+            "FY_End": {
+                "data_type": "DATE",
+                "context": "The 'FY_End' column represents the end date of the company’s fiscal year. This date helps in understanding the company’s financial reporting cycle and planning."
+            },
+            "10K_Date": {
+                "data_type": "DATE",
+                "context": "The '10K_Date' column represents the date of the company’s most recent 10-K filing. The 10-K is an annual report that provides detailed information about the company’s financial performance."
+            },
+            "Revenue": {
+                "data_type": "NUMBER",
+                "context": "The 'Revenue' column shows the total revenue generated by the company. Revenue is a critical metric for evaluating a company’s overall financial health and growth."
+            },
+            "Rev_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Growth' column tracks the revenue growth rate over a period. It shows how the company’s revenue has increased or decreased over time."
+            },
+            "Rev_Growth_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Growth_Q' column indicates the quarterly revenue growth rate. This helps investors assess how the company is growing on a short-term basis."
+            },
+            "Rev_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Growth_3Y' column measures the revenue growth rate over the past three years. It gives insight into the company’s medium-term performance."
+            },
+            "Rev_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Growth_5Y' column tracks the revenue growth rate over the past five years. This is a key indicator of the company’s long-term growth prospects."
+            },
+            "Rev_Growth_Yrs": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Growth_Yrs' column tracks the number of years in which the company has shown consistent revenue growth. This is useful for identifying a pattern of stability and expansion."
+            },
+            "Rev_Growth_Qtrs": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Growth_Qtrs' column tracks the number of quarters in which the company has shown consistent revenue growth. It helps assess the company’s recent growth trajectory."
+            },
+            "Gross_Profit": {
+                "data_type": "NUMBER",
+                "context": "The 'Gross_Profit' column represents the total gross profit generated by the company. Gross profit is a key measure of a company’s operational efficiency and profitability."
+            },
+            "GP_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'GP_Growth' column tracks the growth rate of the company’s gross profit. It helps investors understand the rate at which the company is increasing its profit margins."
+            },
+            "GP_Growth_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'GP_Growth_Q' column measures the quarterly growth rate of the company’s gross profit. This can indicate whether the company is increasing or decreasing profitability on a short-term basis."
+            },
+            "GP_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'GP_Growth_3Y' column tracks the gross profit growth rate over the past three years. It provides insight into the company’s medium-term profitability trends."
+            },
+            "GP_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'GP_Growth_5Y' column indicates the gross profit growth rate over the past five years. This is useful for analyzing long-term trends in the company’s profitability."
+                    },
+            "Op_Income": {
+                "data_type": "NUMBER",
+                "context": "The 'Op_Income' column represents the operating income of the company, which reflects the profit generated from its core business activities. This value is important for assessing the company's ability to generate earnings from its operations."
+            },
+            "OpInc_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'OpInc_Growth' column measures the growth rate of operating income. It helps investors assess how efficiently the company is increasing its core operating profits over time."
+            },
+            "OpInc_Growth_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'OpInc_Growth_Q' column tracks the quarterly growth rate of operating income. This provides insight into the company’s short-term ability to grow its operational profits."
+            },
+            "OpInc_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'OpInc_Growth_3Y' column measures the operating income growth over the past three years. This allows investors to evaluate the company's medium-term operational performance."
+            },
+            "OpInc_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'OpInc_Growth_5Y' column tracks the operating income growth over the past five years. This provides a long-term view of the company's ability to expand operational profits."
+            },
+            "Net_Income": {
+                "data_type": "NUMBER",
+                "context": "The 'Net_Income' column represents the company's net income, which is the profit after all expenses, taxes, and interest have been deducted. It is a critical indicator of overall financial health."
+            },
+            "NetInc_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'NetInc_Growth' column measures the growth rate of the company's net income. This helps to evaluate the overall profit trajectory of the business."
+            },
+            "NetInc_Growth_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'NetInc_Growth_Q' column tracks the quarterly growth rate of net income. This provides investors with a short-term view of the company's profitability."
+            },
+            "NetInc_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'NetInc_Growth_3Y' column measures the net income growth over the past three years. It provides medium-term insights into the company’s financial performance."
+            },
+            "NetInc_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'NetInc_Growth_5Y' column tracks the net income growth over the past five years. It provides a long-term perspective on the company's profitability."
+            },
+            "NetInc_Growth_Yrs": {
+                "data_type": "NUMBER",
+                "context": "The 'NetInc_Growth_Yrs' column shows how many years the company has demonstrated consistent net income growth. This is useful for identifying long-term trends in the company's earnings."
+            },
+            "NetInc_Growth_Qtrs": {
+                "data_type": "NUMBER",
+                "context": "The 'NetInc_Growth_Qtrs' column shows the number of quarters in which the company has consistently grown its net income. This indicates the company’s recent success in expanding profitability."
+            },
+            "Income_Tax": {
+                "data_type": "NUMBER",
+                "context": "The 'Income_Tax' column represents the amount of income tax the company has paid. This figure is important for understanding the tax burden the company faces and its effective tax rate."
+            },
+            "EPS": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS' (Earnings Per Share) column represents the company’s profit allocated to each outstanding share of common stock. This is a key metric for investors to assess the company’s profitability on a per-share basis."
+            },
+            "EPS_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Growth' column tracks the growth rate of earnings per share. This is an important metric to evaluate how well the company is increasing its profitability per share."
+            },
+            "EPS_Growth_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Growth_Q' column tracks the quarterly growth rate of earnings per share. This is useful for understanding the company’s short-term profitability growth."
+            },
+            "EPS_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Growth_3Y' column measures the growth rate of earnings per share over the past three years. It helps evaluate the company's medium-term performance."
+            },
+            "EPS_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Growth_5Y' column tracks the growth rate of earnings per share over the past five years. This provides long-term insights into the company’s ability to grow its earnings."
+            },
+            "EPS_Growth_Yrs": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Growth_Yrs' column shows how many years the company has consistently grown its earnings per share. This provides a longer-term view of the company’s performance."
+            },
+            "EPS_Growth_Qtrs": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Growth_Qtrs' column tracks the number of quarters in which the company has consistently grown its earnings per share. This can signal the company’s recent operational efficiency."
+            },
+            "EBITDA": {
+                "data_type": "NUMBER",
+                "context": "The 'EBITDA' (Earnings Before Interest, Taxes, Depreciation, and Amortization) column represents the company’s earnings before accounting for interest expenses, taxes, depreciation, and amortization. It is a useful measure of operational profitability."
+            },
+            "EBIT": {
+                "data_type": "NUMBER",
+                "context": "The 'EBIT' (Earnings Before Interest and Taxes) column indicates the company’s earnings from core business operations before considering interest and taxes. It provides a snapshot of profitability from the company's main activities."
+            },
+            "Operating_CF": {
+                "data_type": "NUMBER",
+                "context": "The 'Operating_CF' (Operating Cash Flow) column tracks the cash generated by the company’s core business operations. It is important for assessing whether a company can sustain its operations through internal cash flow."
+            },
+            "SBC": {
+                "data_type": "NUMBER",
+                "context": "The 'SBC' (Stock-Based Compensation) column represents the total amount of compensation paid in stock rather than cash. This is common for employee incentives and is important for evaluating how much equity is being granted."
+            },
+            "SBC_Rev": {
+                "data_type": "NUMBER",
+                "context": "The 'SBC_Rev' column represents stock-based compensation as a percentage of the company's total revenue. This is useful for evaluating how much the company is spending on employee stock grants relative to its sales."
+            },
+            "Investing_CF": {
+                "data_type": "NUMBER",
+                "context": "The 'Investing_CF' (Investing Cash Flow) column tracks the cash flows associated with the company’s investments in assets, acquisitions, or divestitures. It helps assess how the company is managing its capital for long-term growth."
+            },
+            "Financing_CF": {
+                "data_type": "NUMBER",
+                "context": "The 'Financing_CF' (Financing Cash Flow) column tracks the cash flows from activities like issuing debt or equity, or repurchasing shares. This is critical for understanding how the company is raising and using funds."
+            },
+            "Net_CF": {
+                "data_type": "NUMBER",
+                "context": "The 'Net_CF' (Net Cash Flow) column represents the total cash flow after accounting for operating, investing, and financing activities. A positive net cash flow indicates that the company is generating more cash than it is spending."
+            },
+            "CapEx": {
+                "data_type": "NUMBER",
+                "context": "The 'CapEx' (Capital Expenditures) column tracks the amount of money the company spends on acquiring or maintaining physical assets such as buildings, machinery, and equipment. It is crucial for understanding the company's long-term investment strategies."
+            },
+            "FCF": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF' (Free Cash Flow) column represents the cash that the company generates after accounting for capital expenditures. This is a critical metric for evaluating the company's ability to generate cash and reinvest in its business or return capital to shareholders."
+            },
+            "FCF_SBC": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_SBC' column represents the free cash flow minus stock-based compensation. This is important for evaluating the true cash flow of the company after considering the impact of stock-based compensation expenses."
+            },
+            "FCF_Share": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Share' column tracks the free cash flow per share, which is important for evaluating the company's cash generation on a per-share basis, providing insight into its financial health relative to the number of shares outstanding."
+            },
+            "FCF_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Growth' column measures the growth rate of the company's free cash flow. It helps assess how effectively the company is increasing its cash generation capacity over time."
+            },
+            "FCF_Growth_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Growth_Q' column tracks the quarterly growth rate of free cash flow. This provides insight into the company’s short-term capacity to generate cash."
+            },
+            "FCF_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Growth_3Y' column measures the free cash flow growth over the past three years, offering a medium-term view of how well the company is increasing its cash reserves."
+            },
+            "FCF_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Growth_5Y' column tracks the free cash flow growth over the past five years, helping investors assess the company's long-term cash generation trend."
+            },
+            "Total_Cash": {
+                "data_type": "NUMBER",
+                "context": "The 'Total_Cash' column tracks the total amount of cash on hand for the company. This is important for understanding the liquidity and financial flexibility available to the company."
+            },
+            "Total_Debt": {
+                "data_type": "NUMBER",
+                "context": "The 'Total_Debt' column represents the total debt obligations of the company. It is a crucial metric for evaluating the company's financial leverage and its capacity to meet debt obligations."
+            },
+            "Debt_Growth_YoY": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_Growth_YoY' column measures the year-over-year growth rate of the company's debt. This helps assess how the company is managing its debt load and whether it is becoming more leveraged."
+            },
+            "Debt_Growth_QoQ": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_Growth_QoQ' column tracks the quarter-over-quarter change in the company’s debt. This provides insight into the company’s short-term debt management."
+            },
+            "Debt_Growth_3Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_Growth_3Y' column measures the growth in total debt over the past three years, helping evaluate the company’s medium-term debt strategy and risk profile."
+            },
+            "Debt_Growth_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_Growth_5Y' column tracks the growth in total debt over the past five years, providing a long-term view of the company’s debt management and financial leverage."
+            },
+            "Net_Cash": {
+                "data_type": "NUMBER",
+                "context": "The 'Net_Cash' column represents the company’s net cash position, calculated by subtracting total debt from total cash. This is a key indicator of financial health and the company’s ability to cover debt with available cash."
+            },
+            "Net_Cash_Growth": {
+                "data_type": "NUMBER",
+                "context": "The 'Net_Cash_Growth' column tracks the growth rate of the company's net cash position. It helps assess how well the company is improving its liquidity and reducing its debt over time."
+            },
+            "Cash_M_Cap": {
+                "data_type": "NUMBER",
+                "context": "The 'Cash_M_Cap' column shows the proportion of cash relative to the company’s market capitalization. This indicates how much of the company’s market value is supported by cash reserves."
+            },
+            "Assets": {
+                "data_type": "NUMBER",
+                "context": "The 'Assets' column represents the total assets owned by the company, including both current and long-term assets. It is a critical metric for assessing the company's total value and its ability to generate future income."
+            },
+            "Liabilities": {
+                "data_type": "NUMBER",
+                "context": "The 'Liabilities' column tracks the total liabilities the company is responsible for, including both short-term and long-term obligations. This figure is important for understanding the company’s financial risk."
+            },
+            "Gross_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'Gross_Margin' column represents the percentage of revenue that exceeds the cost of goods sold (COGS). A higher gross margin indicates better efficiency in production or service delivery."
+            },
+            "Oper_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'Oper_Margin' column tracks the operating margin, calculated as operating income divided by revenue. This provides insight into the company's efficiency in managing its core operations."
+            },
+            "Pretax_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'Pretax_Margin' column measures the percentage of revenue remaining after operating expenses but before tax expenses. This reflects the company's profitability before tax considerations."
+            },
+            "Profit_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'Profit_Margin' column tracks the net profit margin, calculated as net income divided by revenue. This is an important metric for understanding the company’s overall profitability."
+            },
+            "FCF_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Margin' column represents the free cash flow margin, calculated as free cash flow divided by revenue. This shows the percentage of revenue converted into free cash flow."
+            },
+            "EBITDA_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'EBITDA_Margin' column tracks the EBITDA margin, calculated as EBITDA divided by revenue. This provides insight into the company’s operational profitability."
+            },
+            "EBIT_Margin": {
+                "data_type": "NUMBER",
+                "context": "The 'EBIT_Margin' column represents the EBIT margin, calculated as EBIT divided by revenue. This helps assess the company’s profitability from core operations before interest expenses."
+            },
+            "R_D": {
+                "data_type": "NUMBER",
+                "context": "The 'R_D' (Research and Development) column tracks the company's spending on research and development activities. This is crucial for understanding how much the company is investing in innovation and future growth."
+            },
+            "R_D_Rev": {
+                "data_type": "NUMBER",
+                "context": "The 'R_D_Rev' column represents research and development expenses as a percentage of total revenue. This helps gauge the company's commitment to innovation relative to its size."
+            },
+            "PS_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'PS_Ratio' (Price-to-Sales Ratio) column represents the ratio of a company's market capitalization to its total revenue. This is useful for evaluating how much investors are willing to pay for every dollar of sales."
+            },
+            "Forward_PS": {
+                "data_type": "NUMBER",
+                "context": "The 'Forward_PS' column represents the forward price-to-sales ratio, based on estimated future revenues. This can provide insight into the company’s future sales prospects relative to its market value."
+            },
+            "PB_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'PB_Ratio' (Price-to-Book Ratio) column tracks the ratio of a company's market value to its book value. This is used to evaluate whether a stock is undervalued or overvalued relative to its assets."
+            },
+            "P_FCF_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'P_FCF_Ratio' (Price-to-Free Cash Flow Ratio) column represents the ratio of a company's market capitalization to its free cash flow. It helps investors understand how much they are paying for the company's ability to generate cash."
+            },
+            "PEG_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'PEG_Ratio' (Price/Earnings-to-Growth Ratio) column represents the price-to-earnings ratio adjusted for growth. This provides insight into the value of a company relative to its expected growth rate."
+            },
+            "EV_Sales": {
+                "data_type": "NUMBER",
+                "context": "The 'EV_Sales' column represents the enterprise value to sales ratio, a measure used to assess the value of a company relative to its revenue. It helps investors gauge how much they are paying for each dollar of sales generated by the company."
+            },
+            "Fwd_EV_S": {
+                "data_type": "NUMBER",
+                "context": "The 'Fwd_EV_S' column tracks the forward enterprise value to sales ratio, based on projected future sales. This gives insight into how the company’s value is expected to evolve with changes in future revenues."
+            },
+            "EV_Earnings": {
+                "data_type": "NUMBER",
+                "context": "The 'EV_Earnings' column represents the ratio of enterprise value to earnings. This ratio helps investors assess the company’s valuation in relation to its earnings, providing a better sense of its profitability."
+            },
+            "EV_EBITDA": {
+                "data_type": "NUMBER",
+                "context": "The 'EV_EBITDA' column tracks the enterprise value to EBITDA ratio, which compares a company's total value (enterprise value) to its earnings before interest, taxes, depreciation, and amortization. It's commonly used to evaluate financial performance and relative valuation."
+            },
+            "EV_EBIT": {
+                "data_type": "NUMBER",
+                "context": "The 'EV_EBIT' column tracks the enterprise value to EBIT ratio, helping investors evaluate a company’s total value relative to its operating income, before interest expenses and taxes."
+            },
+            "EV_FCF": {
+                "data_type": "NUMBER",
+                "context": "The 'EV_FCF' column represents the enterprise value to free cash flow ratio, helping investors assess how much they are paying for each dollar of free cash flow generated by the company."
+            },
+            "Earnings_Yield": {
+                "data_type": "NUMBER",
+                "context": "The 'Earnings_Yield' column tracks the earnings yield percentage, which is the inverse of the P/E ratio and measures the earnings generated per dollar invested in the stock."
+            },
+            "FCF_Yield": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_Yield' column represents the free cash flow yield, a metric that reflects how much free cash flow the company generates relative to its enterprise value."
+            },
+            "FCF_EV": {
+                "data_type": "NUMBER",
+                "context": "The 'FCF_EV' column tracks the ratio of free cash flow over enterprise value, helping to evaluate the financial flexibility and cash generation capacity of a company in relation to its total value."
+            },
+            "Payout_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'Payout_Ratio' column represents the proportion of earnings paid out to shareholders as dividends. It is an important metric for assessing the sustainability of the company's dividend policy."
+            },
+            "Payout_Freq": {
+                "data_type": "TEXT",
+                "context": "The 'Payout_Freq' column refers to the frequency with which dividends are paid, such as quarterly, annually, or semi-annually. This is important for understanding the company's dividend distribution schedule."
+            },
+            "Buyback_Yield": {
+                "data_type": "NUMBER",
+                "context": "The 'Buyback_Yield' column tracks the percentage of shares repurchased by the company relative to its market value. It helps assess the company's commitment to returning capital to shareholders."
+            },
+            "Shareholder_Yield": {
+                "data_type": "NUMBER",
+                "context": "The 'Shareholder_Yield' column combines dividends and stock buybacks to show the total return to shareholders. This metric is used to evaluate the overall effectiveness of a company's capital allocation strategy."
+            },
+            "Avg_Volume": {
+                "data_type": "NUMBER",
+                "context": "The 'Avg_Volume' column tracks the average trading volume of the company's stock over a certain period. It helps investors understand how liquid the stock is and the level of interest from the market."
+            },
+            "Rel_Volume": {
+                "data_type": "NUMBER",
+                "context": "The 'Rel_Volume' column represents the relative volume, comparing the current trading volume to its average. A high relative volume indicates unusual trading activity, which may suggest significant events or investor interest."
+            },
+            "Gap_percent": {
+                "data_type": "NUMBER",
+                "context": "The 'Gap_percent' column tracks the percentage price gap at the open, comparing the opening price to the previous day's closing price. This can indicate market reactions to news or events that occurred after the previous session's close."
+            },
+            "Chg_Open_percent": {
+                "data_type": "NUMBER",
+                "context": "The 'Chg_Open_percent' column measures the percentage change from the opening price to the current price. It is useful for understanding early market trends or investor sentiment at the beginning of the trading day."
+            },
+            "Beta_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Beta_5Y' column tracks the company's beta coefficient over the past five years, which measures the stock's volatility relative to the broader market. A higher beta indicates higher volatility."
+            },
+            "RSI": {
+                "data_type": "NUMBER",
+                "context": "The 'RSI' (Relative Strength Index) column represents a technical analysis indicator that measures the magnitude of recent price changes to evaluate overbought or oversold conditions."
+            },
+            "RSI_W": {
+                "data_type": "NUMBER",
+                "context": "The 'RSI_W' column represents the weekly Relative Strength Index, a momentum indicator used to determine whether a stock is overbought or oversold in the short term."
+            },
+            "RSI_M": {
+                "data_type": "NUMBER",
+                "context": "The 'RSI_M' column tracks the monthly Relative Strength Index, helping to assess longer-term trends in the stock's price movement and potential reversal points."
+            },
+            "ATR": {
+                "data_type": "NUMBER",
+                "context": "The 'ATR' (Average True Range) column measures volatility by analyzing the range between the high and low prices over a specific period. This indicator helps investors gauge the degree of price fluctuations."
+            },
+            "Short_percent_Float": {
+                "data_type": "NUMBER",
+                "context": "The 'Short_percent_Float' column tracks the percentage of shares outstanding that are currently being shorted. A high short interest may indicate that investors expect the stock price to decline."
+            },
+            "Short_percent_Shares": {
+                "data_type": "NUMBER",
+                "context": "The 'Short_percent_Shares' column represents the percentage of a company's shares that are being shorted. This helps assess market sentiment and investor expectations."
+            },
+            "Short_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'Short_Ratio' column tracks the number of days it would take for short sellers to cover their positions based on average daily trading volume. A high short ratio can indicate significant short interest."
+            },
+            "Shares_Out": {
+                "data_type": "NUMBER",
+                "context": "The 'Shares_Out' column represents the total number of shares outstanding for a company. This is important for calculating market capitalization and understanding the size of the company."
+            },
+            "Float": {
+                "data_type": "NUMBER",
+                "context": "The 'Float' column represents the number of shares available for trading on the market. It excludes shares held by insiders and institutions."
+            },
+            "Shares_Ch_YoY": {
+                "data_type": "NUMBER",
+                "context": "The 'Shares_Ch_YoY' column tracks the year-over-year change in the number of shares outstanding, helping to understand the company’s share issuance or buyback activities."
+            },
+            "Shares_Ch_QoQ": {
+                "data_type": "NUMBER",
+                "context": "The 'Shares_Ch_QoQ' column represents the quarter-over-quarter change in the number of shares outstanding. It helps investors assess how the company is managing its share count and whether it is issuing or repurchasing shares."
+            },
+            "Shares_Insiders": {
+                "data_type": "NUMBER",
+                "context": "The 'Shares_Insiders' column tracks the number of shares held by company insiders, such as executives and employees. This is often used to assess management’s confidence in the company and its alignment with shareholders."
+            },
+            "Shares_Institutions": {
+                "data_type": "NUMBER",
+                "context": "The 'Shares_Institutions' column tracks the number of shares held by institutional investors, such as mutual funds or pension funds. A large institutional ownership can indicate market confidence in the company."
+            },
+            "Earnings_Date": {
+                "data_type": "DATE",
+                "context": "The 'Earnings_Date' column contains the scheduled date for the company’s earnings announcement. This date is crucial for investors and analysts who monitor company performance on a quarterly basis."
+            },
+            "Earnings_Time": {
+                "data_type": "TIME",
+                "context": "The 'Earnings_Time' column represents the time of day at which the company will announce its earnings. This can help investors prepare for earnings reports and market reactions."
+            },
+            "Is_SPAC": {
+                "data_type": "BOOLEAN",
+                "context": "The 'Is_SPAC' column indicates whether the company is a Special Purpose Acquisition Company (SPAC). SPACs are shell companies that raise capital through an IPO to acquire other businesses. This data point is important for investors evaluating SPAC opportunities."
+            },
+            "Options": {
+                "data_type": "BOOLEAN",
+                "context": "The 'Options' column indicates whether options trading is available for the company’s stock. Options can provide investors with additional strategies for hedging, speculation, or income generation."
+            },
+            "Ex_Div_Date": {
+                "data_type": "DATE",
+                "context": "The 'Ex_Div_Date' column tracks the ex-dividend date, which is the cutoff date to qualify for the next dividend payout. It’s important for dividend investors to track this date in order to receive the upcoming dividend."
+            },
+            "Payment_Date": {
+                "data_type": "DATE",
+                "context": "The 'Payment_Date' column represents the actual date when the dividend payment is made to shareholders. This is the date that shareholders receive their dividend payments."
+            },
+            "ROE": {
+                "data_type": "NUMBER",
+                "context": "The 'ROE' (Return on Equity) column measures a company’s profitability in relation to shareholders' equity. It is an indicator of how well the company is using equity capital to generate profits."
+            },
+            "ROA": {
+                "data_type": "NUMBER",
+                "context": "The 'ROA' (Return on Assets) column measures a company’s ability to generate profit from its assets. It is an important metric to evaluate how efficiently a company uses its assets to generate earnings."
+            },
+            "ROIC": {
+                "data_type": "NUMBER",
+                "context": "The 'ROIC' (Return on Invested Capital) column measures the return a company generates on its invested capital, including debt and equity. It is a key indicator of the company’s ability to generate value for its shareholders."
+            },
+            "ROE_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'ROE_5Y' column represents the 5-year average return on equity. This helps investors assess the long-term performance and profitability of the company in relation to shareholders' equity."
+            },
+            "ROA_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'ROA_5Y' column tracks the 5-year average return on assets, providing a longer-term view of how efficiently the company is utilizing its assets to generate profits."
+            },
+            "ROIC_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'ROIC_5Y' column measures the 5-year average return on invested capital. It reflects the company’s sustained ability to generate value from both debt and equity investments over a longer period."
+            },
+            "Rev_Employee": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Employee' column calculates revenue per employee. It provides insight into how much revenue each employee generates and can be used to assess operational efficiency and productivity."
+            },
+            "Prof_Employee": {
+                "data_type": "NUMBER",
+                "context": "The 'Prof_Employee' column calculates profit per employee. It helps measure a company’s profitability relative to the number of employees, indicating how efficiently the company manages its workforce to generate profits."
+            },
+            "Asset_Turnover": {
+                "data_type": "NUMBER",
+                "context": "The 'Asset_Turnover' column measures the company’s ability to generate revenue from its assets. A higher turnover ratio suggests better asset utilization."
+            },
+            "Inv_Turnover": {
+                "data_type": "NUMBER",
+                "context": "The 'Inv_Turnover' column tracks inventory turnover, indicating how quickly a company sells and replaces its inventory. A higher turnover suggests better inventory management."
+            },
+            "Current_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'Current_Ratio' column measures a company’s ability to cover its short-term liabilities with its short-term assets. A ratio higher than 1 indicates that the company has enough assets to cover its liabilities."
+            },
+            "Quick_Ratio": {
+                "data_type": "NUMBER",
+                "context": "The 'Quick_Ratio' column is a more stringent measure than the current ratio, excluding inventory from assets. It gives a clearer picture of a company’s liquidity and ability to meet short-term obligations without relying on inventory sales."
+            },
+            "Debt_Equity": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_Equity' column measures a company’s financial leverage, comparing its total debt to shareholders' equity. A higher ratio suggests more reliance on debt for financing."
+            },
+            "Debt_EBITDA": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_EBITDA' column measures the company’s debt in relation to its earnings before interest, taxes, depreciation, and amortization. It is an important indicator of a company's ability to manage its debt load."
+            },
+            "Debt_FCF": {
+                "data_type": "NUMBER",
+                "context": "The 'Debt_FCF' column tracks the ratio of total debt to free cash flow. A higher ratio suggests that the company may have difficulty paying down its debt using its free cash flow."
+            },
+            "Tax_Rate": {
+                "data_type": "NUMBER",
+                "context": "The 'Tax_Rate' column represents the effective tax rate paid by the company, calculated as the income tax expense divided by pre-tax income. This rate helps investors evaluate the company’s tax efficiency."
+            },
+            "Tax_Revenue": {
+                "data_type": "NUMBER",
+                "context": "The 'Tax_Revenue' column represents the percentage of revenue that is paid in taxes. It helps assess how much of the company’s revenue is allocated towards fulfilling tax obligations."
+            },
+            "Equity": {
+                "data_type": "NUMBER",
+                "context": "The 'Equity' column tracks the total equity or net worth of the company, representing the ownership value after subtracting liabilities from assets."
+            },
+            "Working_Capital": {
+                "data_type": "NUMBER",
+                "context": "The 'Working_Capital' column measures the difference between current assets and current liabilities. It indicates the company’s short-term financial health and operational efficiency."
+            },
+            "Net_WC": {
+                "data_type": "NUMBER",
+                "context": "The 'Net_WC' column tracks the net working capital, providing a clearer picture of a company’s liquidity position after accounting for any outstanding liabilities."
+            },
+            "WC_Turnover": {
+                "data_type": "NUMBER",
+                "context": "The 'WC_Turnover' column measures how efficiently the company utilizes its working capital. A higher ratio indicates better efficiency in managing short-term assets and liabilities."
+            },
+            "Last_Stock_Split": {
+                "data_type": "TEXT",
+                "context": "The 'Last_Stock_Split' column indicates the ratio of the company’s most recent stock split, helping investors understand how the company has adjusted its share price."
+            },
+            "Last_Split_Date": {
+                "data_type": "DATE",
+                "context": "The 'Last_Split_Date' column indicates the date of the company’s most recent stock split. This information is important for tracking changes in share price and share structure."
+            },
+            "Z_Score": {
+                "data_type": "NUMBER",
+                "context": "The 'Z_Score' column represents the Altman Z-score, a measure of a company’s likelihood of bankruptcy based on financial ratios. A higher Z-score indicates a lower risk of bankruptcy."
+            },
+            "F_Score": {
+                "data_type": "NUMBER",
+                "context": "The 'F_Score' column tracks the Piotroski F-score, a metric used to assess a company's financial strength based on key indicators such as profitability, leverage, and operational efficiency."
+            },
+            "EPS_Gr_This_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Gr_This_Q' column represents the expected or reported earnings per share (EPS) growth for the current quarter. This metric helps investors gauge the company's short-term profitability and performance."
+            },
+            "EPS_Gr_Next_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Gr_Next_Q' column represents the forecasted earnings per share (EPS) growth for the upcoming quarter. This information is valuable for assessing the company’s potential to meet or exceed analyst expectations in the near term."
+            },
+            "EPS_Gr_This_Y": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Gr_This_Y' column tracks the year-to-date earnings per share growth. This metric helps assess the company’s profitability for the current fiscal year compared to the same period in the prior year."
+            },
+            "EPS_Gr_Next_Y": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Gr_Next_Y' column reflects the expected earnings per share growth for the next fiscal year. It allows investors to gauge how analysts view the company’s future earnings potential."
+            },
+            "Rev_Gr_This_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Gr_This_Q' column represents the revenue growth rate for the current quarter. This metric is used to assess the company’s ability to increase its top-line performance over a short period."
+            },
+            "Rev_Gr_Next_Q": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Gr_Next_Q' column indicates the expected revenue growth for the upcoming quarter. It provides insight into the company’s prospects for increasing revenue in the near future."
+            },
+            "Rev_Gr_This_Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Gr_This_Y' column tracks the revenue growth for the current fiscal year. It reflects the company’s performance in terms of generating sales compared to the same period in the previous year."
+            },
+            "Rev_Gr_Next_Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Gr_Next_Y' column reflects the expected revenue growth for the next fiscal year. This allows investors to assess the company’s revenue expansion prospects."
+            },
+            "EPS_Gr_Next_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'EPS_Gr_Next_5Y' column represents the expected earnings per share growth over the next 5 years. It helps investors evaluate the long-term profitability potential of the company."
+            },
+            "Rev_Gr_Next_5Y": {
+                "data_type": "NUMBER",
+                "context": "The 'Rev_Gr_Next_5Y' column tracks the expected revenue growth over the next 5 years. This data point is crucial for long-term investors who are analyzing the company’s future growth trajectory."
+            },
+            "In_Index": {
+                "data_type": "BOOLEAN",
+                "context": "The 'In_Index' column indicates whether the company is included in a major stock index, such as the S&P 500 or the Dow Jones Industrial Average. Inclusion in such an index often signals a company’s stability and importance in the market."
+            },
+            "Views": {
+                "data_type": "NUMBER",
+                "context": "The 'Views' column tracks the number of views or the level of interest the company is receiving in terms of media coverage, analyst reports, or investor attention. It may indicate the company’s market visibility or investor interest."
+            },
+            "Int_Cov": {
+                "data_type": "NUMBER",
+                "context": "The 'Int_Cov' (Interest Coverage) ratio measures a company’s ability to meet its interest payments on outstanding debt. A higher ratio indicates a lower risk of defaulting on interest obligations."
+            },
+            "Return_IPO": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_IPO' column represents the total return since the company’s initial public offering (IPO). It gives investors a sense of the stock’s performance from its IPO to the present."
+            },
+            "Return_IPO_Open": {
+                "data_type": "NUMBER",
+                "context": "The 'Return_IPO_Open' column reflects the return on investment since the company’s IPO opening price. It is used to measure the immediate market reaction to the company’s IPO."
+            },
+            "20_MA": {
+                "data_type": "NUMBER",
+                "context": "The '20_MA' column represents the 20-day moving average of the company’s stock price. This metric smooths out price fluctuations and provides a short-term trend indicator."
+            },
+            "50_MA": {
+                "data_type": "NUMBER",
+                "context": "The '50_MA' column tracks the 50-day moving average of the stock price. This is a longer-term trend indicator than the 20-day moving average and helps assess the stock's medium-term trend."
+            },
+            "200_MA": {
+                "data_type": "NUMBER",
+                "context": "The '200_MA' column represents the 200-day moving average of the stock price. It is a key long-term trend indicator often used to determine whether a stock is in a bullish or bearish trend."
+            },
+            "50MA_Chg_percent": {
+                "data_type": "NUMBER",
+                "context": "The '50MA_Chg_percent' column tracks the percentage change in the 50-day moving average. It provides a quick snapshot of how the stock price has moved relative to its 50-day average."
+            },
+            "200MA_Chg_percent": {
+                "data_type": "NUMBER",
+                "context": "The '200MA_Chg_percent' column tracks the percentage change in the 200-day moving average. This is a long-term indicator of price momentum, helping investors understand how the stock is performing relative to its long-term trend."
+            },
+            "SIC_Code": {
+                "data_type": "TEXT",
+                "context": "The 'SIC_Code' (Standard Industrial Classification Code) is a numerical code that classifies the company by its industry. This helps categorize companies and facilitates comparisons within the same sector."
+            },
+            "CIK_Code": {
+                "data_type": "TEXT",
+                "context": "The 'CIK_Code' (Central Index Key) is a unique identifier assigned by the SEC to each company that files with the agency. It allows regulators and investors to track company filings and documents."
+            },
+            "ISIN_Number": {
+                "data_type": "TEXT",
+                "context": "The 'ISIN_Number' (International Securities Identification Number) is a unique identifier for securities traded internationally. It is used to track and identify stocks, bonds, and other securities."
+            },
+            "CUSIP_Number": {
+                "data_type": "TEXT",
+                "context": "The 'CUSIP_Number' is a unique identification number for U.S. securities, which helps investors and financial institutions track specific securities in the U.S. market."
+            },
+            "Website": {
+                "data_type": "TEXT",
+                "context": "The 'Website' column contains the official URL for the company’s website. This provides a direct link for stakeholders to access information about the company, its services, and investor relations."
+            }
+        }
+    }
+}
